@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    background:rgb(249, 250, 254);
+}
+
+#main-container {
+    margin: 0;
+    width: inherit;
+    background: rgb(249, 250, 254);
+    z-index: -1;
+    position: absolute;
+}
+
+#header-container h4 {
+    margin: 0;
+    padding: 40px 0 40px 0;
+    border: 0;
+    outline: 0;
+}
+
+#header-container {
+    margin: 0;
+    height: 250px;
+    width: inherit;
+    background: linear-gradient(141deg, #543d9b 0%, #4b49a4 51%, #4156ad 75%);
+    color:white;
+    opacity:0.95;
+    z-index: 0;
+    position: relative;
+}
+
+.container .card-title {
+    display: flex;
+    align-items: center;
+}
+
+/* navbar */
+.tabs .tab a.active {
+    color: rgb(86, 78, 171) !important;
+}
+/* navbar end */
+
+/* breadcrumbs */
+.breadcrumbs-container {
+    height: 30px;
+    position:absolute;
+    bottom: 30px;
+}
+/* breadcrumbs end */
+
+.no-uppercase {
+    font-weight: 500;
+    text-transform: none;
+}
+
+.container .content {
+    position: absolute;
+}
