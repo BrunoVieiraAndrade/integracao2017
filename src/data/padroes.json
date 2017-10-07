@@ -1,0 +1,18 @@
+[
+    {
+        "regex": "^[ \t]+",
+        "disciplinas": [
+            "d1",
+            "d2",
+            "disciplina3"
+        ]
+    },
+    {
+        "regex": "djfkasdjfkasçjdkf",
+        "disciplinas": [
+            "disciplina1",
+            "disciplina2",
+            "disciplina3"
+        ]
+    }
+]

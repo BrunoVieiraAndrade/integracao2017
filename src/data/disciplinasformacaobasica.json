@@ -1,0 +1,379 @@
+[
+/* DISCIPLINAS DE FORMAÇÃO BÁSICAS*/
+
+    {
+        "id":"D1",
+        "nome": "Computação e Sociedade",
+        "nucleo": "NC",
+        "teo": 32,
+        "pra": 0,
+        "total": 32,
+        "periodo": "1°",
+        "unidade": "INF",
+        "obrigatoria": "Sim",
+        "prerequisito:": [],
+        "ementa": [
+            "1. História da computação.",
+            "2. Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.",
+            "3. Subáreas da computação e áreas interdisciplinares.",
+            "4. Importância e desafios da computação no Brasil e no mundo.",
+            "5. Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão.",
+            "6. Leis e normas relacionadas à Informática.",
+            "7. Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação.",
+            "8. Ética na Computação.",
+            "9. Empresas de tecnologia da informação.",
+            "10. Incubadoras de empresas."
+        ]
+    },
+        {
+        "id":"D2",
+        "nome": "Introdução à Programação",
+        "nucleo": "NC",
+        "teo": 48,
+        "pra": 80,
+        "total": 128,
+        "periodo": "1°",
+        "unidade": "INF",
+        "obrigatoria": "Sim",
+        "prerequisito:": [],
+        "ementa": [
+            "1. Introdução a algoritmos.",
+            "2. Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.",
+            "3. Ponteiro.",
+            "4. Estruturas de dados homogêneas e heterogêneas: vetores, matrizes, cadeias de caracteres, registros. Subprogramas: funções; passagens de parâmetros por valor e por referência, recursividade.",
+            "5. Manipulação de arquivos: abertura, fechamento, leitura e gravação.",
+            "6. Tipos de acesso a arquivos: sequencial e indexado.",
+            "7. Tipos de arquivos (texto e binário).",
+            "8. Transcrição de algoritmos para uma linguagem de programação.",
+            "9. Domínio de uma linguagem de programação: sintaxe e semãntica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profi/ing; desenvolvimento e uso de bibliotecas." 
+        ]
+    },
+    
+     {
+        "id":"D3",
+        "nome": "Cálculo lA",
+        "nucleo": "NC",
+        "teo": 96,
+        "pra": 0,
+        "total": 96,
+        "periodo": "1°",
+        "unidade": "IME",
+        "obrigatoria": "Sim",
+        "prerequisito:": [],
+        "ementa": [
+            "1. Números reais. Funções reais de uma variável real e suas inversas.",
+            "2. Noções sobre cônicas.",
+            "3. Limite e continuidade.",
+            "4. Derivadas e aplicações.",
+            "5. Polinômio de Taylor.",
+            "6. Integrais. Técnicas de Integração. Integrais impróprias.",
+            "7. Aplicações."
+        ]
+    }, 
+
+     {
+        "id":"D4",
+        "nome": "Fundamentos de Matemática para Computação",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "1°",
+        "unidade": "INF",
+        "obrigatoria": "Sim",
+        "prerequisito:": [],
+        "ementa": [
+            "1. Noções de lógica.",
+            "2. Introdução a demonstrações",
+            "3. Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória.",
+            "4. Séries e sequências.",
+            "5. Relações e Funções.",
+            "6. Representações numéricas e Mudança de base numérica."
+        ]
+    }, 
+
+     {
+        "id":"D5",
+        "nome": "Arquitetura de Computadores",
+        "nucleo": "NC",
+        "teo": 48,
+        "pra": 16,
+        "total": 64,
+        "periodo": "2°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D4"],
+        "ementa": [
+            "1. Visão geral dos computadores modernos.",
+            "2. Evolução da arquitetura dos computadores.",
+            "3. Memória e representação de dados e instruções.",
+            "4. Processador, ciclo de instrução, formato e endereçamento.",
+            "5. Noções básicas de programação em linguagem de montagem.",
+            "6. Dispositivos de entrada e saída.",
+            "7. Sistemas de interconexão (barramentos).",
+            "8. Interfaceamento e técnicas de entrada e saída.",
+            "9. Hierarquia de memória.",
+            "10. Introdução a arquiteturas paralelas e métricas de desempenho."
+        ]
+    }, 
+
+     {
+        "id":"D6",
+        "nome": "Algoritmos e Estruturas de Dados 1",
+        "nucleo": "NC",
+        "teo": 32,
+        "pra": 32,
+        "total": 64,
+        "periodo": "2°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D2"],
+        "ementa": [
+            "1. Noções de complexidade de algoritmos (notações de complexidade).",
+            "2. Algoritmos de pesquisa: pesquisa sequencial e binária.",
+            "3. Algoritmos de ordenação.",
+            "4. Tipos abstratos de dados.",
+            "5. Estruturas de dados utilizando vetores: pilhas, filas, listas (simples e circulares).",
+            "6. Estruturas de dados com alocação dinâmica de memória: pilhas, filas, listas (simplesmente encadeadas, duplamente encadeadas e circulares)."
+        ]
+    }, 
+
+    {
+        "id":"D7",
+        "nome": "Probabilidade e Estatística A",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "2°",
+        "unidade": "IME",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D3"],
+        "ementa": [
+            "1. Estatística descritiva. Noções sobre amostragem.",
+            "2. Introdução à teoria de conjuntos.",
+            "3. Introdução à teoria de probabilidade: espaço amostral, eventos, frequência relativa, fundamentos de probabilidade, probabilidade condicional, eventos independentes e teorema de Bayes",
+            "4. Variáveis aleatórias: conceitos básicos, esperança e variância.",
+            "5. Distribuições discretas de probabilidade: uniforme, binomial e Poisson.",
+            "6. Distribuições contínuas de probabilidade: uniforme, exponencial, normal e t-Student.",
+            "7. Estimação pontual e intervalar para uma população: média e proporção.",
+            "8. Teste de hipóteses para uma população: média e proporção.",
+            "9. Correlação linear e regressão linear simples."
+        ]
+    }, 
+
+{
+        "id":"D8",
+        "nome": "Álgebra Linear",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "2°",
+        "unidade": "IME",   
+        "obrigatoria": "Sim",
+        "prerequisito:": [],
+        "ementa": [
+            "1. Sistemas lineares e matrizes.",
+            "2. Espaços vetoriais.",
+            "3. Transformações lineares.",
+            "4. Autovalores e autovetores.",
+            "5. Espaços com produto interno"
+        ]
+    }, 
+
+{
+        "id":"D9",
+        "nome": "Lógica Matemática",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "2°",
+        "unidade": "IME",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D4"],
+        "ementa": [
+            "1. Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);",
+            "2. Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural",
+            "3. Linguagem para experimentação.",
+            "4. Aplicações básicas."
+        ]
+    }, 
+
+{
+        "id":"D10",
+        "nome": "Programação Orientada a Objetos",
+        "nucleo": "NC",
+        "teo": 32,
+        "pra": 32,
+        "total": 64,
+        "periodo": "3°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D2"],
+        "ementa": [
+            "1. Abstração e tipos abstratos de dados.",
+            "2. Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo.",
+            "3. Uso de uma linguagem orientada a objetos.",
+            "4. Noções de UML.",
+            "5. Noções de padrões de projeto orientado a objetos."
+        ]
+    }, 
+
+{
+        "id":"D11",
+        "nome": "Algoritmos e Estruturas de Dados 2",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "3°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D6"],
+        "ementa": [
+            "1. Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).",
+            "2. Filas de prioridades. Heaps, Heapsort. Hashing: tipos de funções de hashing; tratamento de colisões.",
+            "3. Definições de Grafos.",
+            "4. Estruturas de Dados para representação de grafos.",
+            "5. Algoritmos básicos em grafos."
+        ]
+    }, 
+
+{
+        "id":"D12",
+        "nome": "Linguagens e Paradigmas de Programação",
+        "nucleo": "NC",
+        "teo": 32,
+        "pra": 32,
+        "total": 64,
+        "periodo": "3°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D2"],
+        "ementa": [
+            "1. Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.",
+            "2. Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação.",
+            "3. Descrição de sintaxe e semântica.",
+            "4. Estudo sobre tipos de dados, estruturas de controle, ambientes de execução, variáveis, expressões e subprogramas em linguagens de programação."
+        ]
+    }, 
+
+{
+        "id":"D13",
+        "nome": "Engenharia de Software",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "3°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": [],
+        "ementa": [
+            "1. Requisitos de software.",
+            "2. Projeto (design) de software.",
+            "3. Construção de software.",
+            "4. Teste de software.",
+            "5. Manutenção de software",
+            "6. Gerência de configuração de software.",
+            "7. Gerência de projeto de software.",
+            "8. Processo de engenharia de software.",
+            "9. Modelos e métodos de engenharia de software.",
+            "10. Qualidade de software.",
+            "11. Prática profissional de engenharia de software.",
+            "12. Economia para engenharia de software.",
+            "13. Fundamentos de engenharia."
+        ]
+    }, 
+
+        {
+        "id":"D14",
+        "nome": "Análise e Projeto de Algoritmos",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "4°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D4","D11"],
+        "ementa": [
+            "1. Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.",
+            "2. Corretude de Algoritmos.",
+            "3. Exemplos de análise de algoritmos.",
+            "4. Técnicas de projeto de algoritmos: dividir para conquistar, programação dinâmica, algoritmos gulosos.",
+            "5. Introdução à NP-Completude."
+        ]
+    }, 
+
+{
+        "id":"D15",
+        "nome": "Interação Humano-Computador",
+        "nucleo": "NC",
+        "teo": 32,
+        "pra": 32,
+        "total": 64,
+        "periodo": "4°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D6","D7"],
+        "ementa": [
+            "1. Aspectos gerais sobre interação humano-computador.",
+            "2. Características humanísticas e biológicas, envolvendo questões sobre genealogia, gênero, aspectos étnicos, raciais e culturais, direitos e aspectos políticos, deficiências, limitações e capacidades, dentre outros.",
+            "3. Ciclo da interação e principais problemas. Metas de usabilidade e experiência do usuário.",
+            "4. Fatores humanos em software interativo: teoria, princípios e regras básicas. Modelos conceituais e metáforas.",
+            "5. Estilos de interação. Elementos de interação (menus, formulários, manipulação direta e outros). Voz, linguagem natural, sons, páginas Web. Padrões para interface.",
+            "6. Localização e internacionalização.",
+            "7. Princípios de projeto de interfaces humano-computador. Métodos de projeto de interação. Projeto visual (cores, ícones, fontes e outros). Tempo de resposta e retroalimentação.",
+            "8. Dispositivos de interação.",
+            "9. Métodos de avaliação de interfaces: avaliação heurística, abordagens para testes realizados com apoio de usuários, técnicas de testes para páginas Web, entre outros.",
+            "10. Visão geral de ferramentas de desenvolvimento de interfaces humano-computador."
+        ]
+    }, 
+
+{
+        "id":"D16",
+        "nome": "Banco de Dados",
+        "nucleo": "NC",
+        "teo": 48,
+        "pra": 16,
+        "total": 64,
+        "periodo": "4°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D9"],
+        "ementa": [
+            "1. Conceitos básicos de Banco de Dados.",
+            "2. Modelo relacional.",
+            "3. Linguagens para Banco de Dados: álgebra relacional, cálculo relacional e SQL.",
+            "4. Modelo Entidade-Relacionamento e extensões.",
+            "5. Mapeamento ER-relacional.",
+            "6. Normalização."
+        ]
+    }, 
+
+{
+        "id":"D17",
+        "nome": "Projeto de Software",
+        "nucleo": "NC",
+        "teo": 64,
+        "pra": 0,
+        "total": 64,
+        "periodo": "4°",
+        "unidade": "INF",   
+        "obrigatoria": "Sim",
+        "prerequisito:": ["D10","D13"],
+        "ementa": [
+            "1. Fundamentos de design de software.",
+            "2. Questões básicas de design de software: concorrência, controle e tratamento de eventos, persistência de dados, distribuição, tratamento de erro e exceção, tolerância a falhas, interação e apresentação, e segurança. Estrutura e arquitetura de software.",
+            "3. Projeto de interface de usuário.",
+            "4. Análise de qualidade e avaliação de design de software.",
+            "5. Notação de design de software.",
+            "6. Métodos e estratégias de design de software.",
+            "7. Ferramentas de design de software."
+        ]
+    }
+
+]
