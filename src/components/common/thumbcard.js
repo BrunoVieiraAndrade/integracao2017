@@ -1,74 +1,52 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import { withRouter } from 'react-router-dom'
-import Card, { CardActions, CardContent } from 'material-ui/Card';
-import Button from 'material-ui/Button';
-import Typography from 'material-ui/Typography';
-import Grid from 'material-ui/Grid';
+import { withRouter, Link } from 'react-router-dom'
 
 import './thumbcard';
 
-let iconsFolderPath = '../../assets/icons/';
-
-const styles = theme => ({
-  root: {
-    flexGrow: 1,
-    marginTop: 16,
-  },
-  flex: {
-    flex: 1,
-  },
-  cardContent: {
-    height: 180,
-    textAlign: 'center',
-  },
-});
-
 class ThumbCard extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      topico: this.props.topico,
+      titulo: this.props.topico.titulo,
+      resumo: this.props.topico.resumo,
+      url: this.props.topico.url,
+    };
+  }
+
+  componentWillUnmount() {
+    window.topico = this.state.topico;
+  }
+
+  mouseEnter(topico) {
+    console.log(topico.titulo);
+    window.topico = topico;
+  }
 
   render() {
-    const { classes, iconName, url } = this.props;
-    var iconUrl = '';
-
-    if (iconName) {
-      iconUrl = require(`../../assets/icons/${iconName}.png`);
-    }
 
     return (
-      <Grid item xs={3}>
-        <div className={classes.root}>
-          <Button className={classes.button} href={url}>
-            <Card className={classes.card}>
-              <CardContent>
-                <Grid item xs={12}>
-                  <Grid
-                    container
-                    className={classes.cardContent}
-                    align='center'
-                    direction='column'
-                  >
-                    <Grid item>
-                      <img src={iconUrl} style={{ width: 80, height: 80 }} className="img-responsive"/>
-                    </Grid>
-                    <Grid item>
-                      <Typography type="title" gutterBottom>
-                        {this.props.titulo}
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </Grid>
-              </CardContent>
-            </Card>
-          </Button>
+      <div className="row">
+        <div className="col-md-12">
+								<span className="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom box-shadow-custom">
+									<span className="thumb-info-side-image-wrapper">
+										<img alt="" className="img-responsive img-visao-geral" src="img/demos/hotel/gallery/gallery-2.jpg" />
+									</span>
+									<span className="thumb-info-caption">
+										<span className="thumb-info-caption-text">
+											<h4 className="text-uppercase mb-xs">{this.state.titulo}</h4>
+											<p>{this.state.resumo}</p>
+											<p className="align-right p-lg pb-none" onMouseEnter={this.mouseEnter.bind(this, this.state.topico)}>
+												<Link className="btn btn-primary btn-lg font-size-sm text-uppercase mb-md" key={this.state.url} to={this.state.url ? this.state.url : ''}>LER MAIS</Link>
+											</p>
+										</span>
+									</span>
+								</span>
         </div>
-      </Grid>
+      </div>
     );
   }
 }
 
-ThumbCard.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
-export default withRouter(withStyles(styles)(ThumbCard));
+export default withRouter(ThumbCard);
