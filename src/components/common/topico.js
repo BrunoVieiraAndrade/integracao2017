@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typography from 'material-ui/Typography';
 
 class Topico extends Component {
 
@@ -23,9 +24,13 @@ class Topico extends Component {
   render() {
     return (
       <div>
-        <h4>{this.props.titulo}</h4>
+
+        <Typography type="headline" component="h1">
+          {this.props.titulo}
+        </Typography>
+
         {this.props.conteudo.split('\n').map((item, key) => {
-          return <span key={key}>{item}<br/><br/></span>
+          return <Typography component="p">{item}<br/><br/></Typography>
         })}
         {this.renderSubtopicos(this.props.subtopicos)}
       </div>
