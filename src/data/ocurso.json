@@ -1,6 +1,7 @@
 [{
 		"titulo": "Núcleo Docente Estruturante (NDE)",
-		"descricao": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE.",
+		"resumo": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE.",
+		"conteudo": "Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE.",
 		"topicos": [
 		{
 				"tipo": "Lista",
@@ -31,27 +32,24 @@
 				"tipo": "Texto",
 				"titulo": "Acompanhar e promover a qualificação do corpo de técnicoadministrativos",
 				"conteudo": "Onde, portanto, não se apresenta como órgão ou mecanismo deliberativo, mas consultivo. Reúne docentes que continuamente refletem sobre questões pertinentes ao curso e, em consequência, definem ações que assistem, apoiam e fomentam a qualidade do curso, bem como contribuem com a execução dessas ações./n A atuação do NDE deve ser realizada em estreita interação com a coordenação do curso. Entretanto, não é nem pode ser vista como meio para auxiliar a realização de fluxos administrativos (atribuição da coordenação do curso)./n Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual 'normatiza o núcleo docente estruturante', e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010."
-			},
+			}
 			]
 			
 			},
 						
 			{
 		"titulo": "Política e gestão de estágio não obrigatório",
-		"descricao": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. ",
+				"resumo": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software.",
+		"conteudo": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. ",
 		"topicos": [{
 				"tipo": "Texto",
 				"titulo": "Da carência de mão de obra",
-				"descricao": "O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. 
-O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente,
-esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. /n Convém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). /n Durante o estágio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estágio, além da frequência e dos relatórios semestrais. 
-Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software. 
-"
+				"conteudo": "O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso.\nO estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso.\nConvém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso).\n Durante o estágio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estágio, além da frequência e dos relatórios semestrais.\nOs documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software."
 			},
 			{
 				"tipo": "Tabela",
 				"titulo": "Tabela exemplo",
-				"descricao": "Coluna A=linha1,linha2,linha3,linha4 | Coluna B=descricao1, descricao2, descricao3, descricao4"
+				"conteudo": "Coluna A=linha1,linha2,linha3,linha4 | Coluna B=descricao1, descricao2, descricao3, descricao4"
 			}
 		]
 
