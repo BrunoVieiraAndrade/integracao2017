@@ -1,10 +1,12 @@
-[{
+[
+	{
 		"id": "identificacao",
 		"titulo": "Identificação",
 		"resumo": "A identificação do curso com informações gerais sobre o Bacharelado de Engenharia de Software na Universidade Federal de Goiás.",
 		"url": "/visao-geral/identificacao",
 		"conteudo": "",
-		"subtopicos": [{
+		"subtopicos": [
+			{
 				"tipo": "texto",
 				"titulo": "Nome do curso",
 				"conteudo": "Engenharia de Software"
@@ -75,7 +77,6 @@
 				"conteudo": "Sistema de Seleção Unificada (SiSU). Em caso de existência de vagas é possível o ingresso através: (a) de transferência de outras instituições de ensino superior; (b) portadores de diploma ou (c) reingresso. Essas opções dependem de processo seletivo específico na UFG."
 			}
 		]
-
 	},
 	{
 		"id": "contexto",
@@ -83,7 +84,8 @@
 		"url": "/visao-geral/contexto",
 		"resumo": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes.",
 		"conteudo": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes.",
-		"subtopicos": [{
+		"subtopicos": [
+			{
 				"tipo": "texto",
 				"titulo": "Da aptidão do Instituto de Informática",
 				"conteudo": "O Instituto de Informática da UFG possui sólida experiência no ensino superior em Computação, iniciada em 1983, com a primeira turma do curso de Bacharelado em Ciências da Computação (CC). A partir de 2009 foram criados mais dois cursos de graduação: O Bacharelado em Engenharia de Software (BES) e o Bacharelado em Sistemas de Informação (SI). O INF também é responsável por dezenas de disciplinas da área de Computação ministradas para diversos cursos de graduação de várias unidades de ensino da UFG. \n Na pós-graduação lato sensu o INF já ofertou dezenas de edições dos mais variados cursos de especialização na área de Computação. Na pós-graduação stricto sensu o INF oferece, desde 2001, o Mestrado em Ciência da Computação. A partir de 2010 o INF passou a oferecer o Doutorado em Ciência da Computação. \n Essa história perfaz mais de três décadas de ensino, com milhares de egressos, alguns deles ocupando cargos de destaque em universidades, empresas e organizações tanto no Brasil quanto no exterior. \n O INF construiu, ao longo desse período, um consistente envolvimento com empresas e organizações de Tecnologia da Informação e Comunicação (TIC). O Apoema [APOEMA] é o órgão do INF responsável pela cooperação e interação com organizações externas, com foco em soluções inovadoras. \n Um número significativo de projetos de Pesquisa e Desenvolvimento (P&D)já foi realizado pelo INF em parceria com organizações locais, e alguns com empresas multinacionais (como Dell e HP, por exemplo). O INF também já participou de vários projetos de inovação tecnológica financiados pela Fundação de Apoio à Pesquisa do Estado de Goiás (FAPEG)."
@@ -106,8 +108,9 @@
 		"url": "/visao-geral/exposicao-de-motivos",
 		"resumo": "A dependência da sociedade em relação a softwares continua se expandindo, inclusive em tarefas que antes eram exclusivas dos seres humanos, por exemplo, estacionar um veículo. Isso tem ampliado a demanda por softwares e consequentemente por profissionais que visam atender essa demanda. O conhecimento necessário para produzir software é denominado de Engenharia de Software.",
 		"conteudo": "A dependência da sociedade em relação a softwares continua se expandindo, inclusive em tarefas que antes eram exclusivas dos seres humanos, por exemplo, estacionar um veículo. Isso tem ampliado a demanda por softwares e consequentemente por profissionais que visam atender essa demanda. O conhecimento necessário para produzir software é denominado de Engenharia de Software. \n Tradicionalmente esse conhecimento e as habilidades necessárias são adquiridas por egressos de outros cursos de graduação ou até por meio de cursos rápidos. Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área. \n A vocação de docentes do INF e o Programa de Reestruturação e Expansão das Universidades Federais (REUNI) resultaram na criação do primeiro curso de graduação (bacharelado) em Engenharia de Software do Brasil, o presente curso, pelo INF /UFG em 27/06/2008, conforme a resolução CONSUNI 10/2008, com o foco na formação de egressos aptos a usar de forma efetiva o conhecimento da Engenharia de Software. Essa primeira versão foi amplamente divulgada [BESl] [BES2]. \n Dezenas de docentes acumularam lições aprendidas desde o início da primeira turma do curso em março de 2009. A partir de outubro de 2014, o Núcleo Docente Estruturante (NDE) do curso iniciou esforço para refletir essas lições em uma nova versão do PPC. Ao longo de quase meia centena de encontros, o NDE fez uma exaustiva revisão do curso. As lições aprendidas e outras demandas, por exemplo, as diretrizes curriculares e o alinhamento com uma formação básica de qualidade em computação, definida pelo próprio INF, foram acomodadas na presente versão. \n Convém esclarecer que na época da criação do BES, sem similar no país, não existiam diretrizes curriculares específicas. Essas diretrizes vieram apenas em 2012 [CNE 2012]. \n A presente versão não é resultado de alterações superficiais aplicadas à versão anterior, mas de ampla reflexão. Insumos empregados na elaboração da versão anterior foram revisitados. As Diretrizes Curriculares Nacionais (DCN), a versão mais recente do corpo de conhecimento da área e o modelo de competência para o engenheiro de software balizaram os esforços realizados. Projetos pedagógicos de cursos semelhantes, inclusive em outros países, também foram investigados. Esse substancial conjunto de informação foi analisado à luz da experiência dos docentes do próprio curso e do contexto local. \n Por fim, o BES obteve nota máxima na avaliação do MEC em 2015, o que estimulou o cuidado com o curso, reforçado pelo Guia dos Estudantes da Editora Abril 2015, no qual, dentre os 28 cursos superiores em Engenharia de Software investigados, dois recebem 5 estrelas, um desses é o curso do presente projeto pedagógico. Em 2016, esse cenário persiste, conforme o Guia dos Estudantes 2016.",
-		"subtopicos": [{}]
-
+		"subtopicos": [
+			{}
+		]
 	},
 	{
 		"id": "objetivos",
@@ -115,7 +118,8 @@
 		"url": "/visao-geral/objetivos",
 		"resumo": "Os objetivos gerais do Bacharelado de Engenharia de Software na Universidade Federal de Goiás",
 		"conteudo": "",
-		"subtopicos": [{
+		"subtopicos": [
+			{
 				"tipo": "texto",
 				"titulo": "Objetivo Geral",
 				"conteudo": "O BES tem como objetivo \n Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional."
@@ -133,7 +137,8 @@
 		"url": "/visao-geral/expectativa-da-formacao-do-profissional",
 		"resumo": "Entenda quais são as expectativas existentes de formação profissional para os egressos do Bacharelado de Engenharia de Software.",
 		"conteudo": "",
-		"subtopicos": [{
+		"subtopicos": [
+			{
 				"tipo": "texto",
 				"titulo": "Perfil do egresso",
 				"conteudo": "O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software. \n O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos. \n A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética. \n As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantêla, usando processos adequados."
@@ -141,17 +146,18 @@
 			{
 				"tipo": "texto",
 				"titulo": "Habilidades do egresso",
-				"conteudo": " Da perspectiva de relações pessoais, o egresso deve ser capaz de: \n Participar de forma harmoniosa, profissional e ética durante a elaboração de produtos de software atribuídos a equipes. \n Liderar ação contínua de formação de sua própria reputação na área. \n Participar da comunicação de ideias com clareza, seja na forma verbal ou escrita. \n Da perspectiva técnica, o egresso deve ser capaz de: \n Participar de atividades para eliciar, analisar, especificar, validar e gerenciar requisitos de software. \n Participar da definição da solução de software que atende requisitos, ou seja, da definição da arquitetura e do projeto detalhado desse software. \n Participar da elaboração de modelos de análise e de projeto (design) de software. \n Participar da aplicação de técnicas de projeto ao desenvolver softwares concorrentes, distribuídos, orientados a objetos, orientados a eventos e que implementam a persistência de dados. \n Participar da avaliação de design de software considerando, dentre outros quesitos: abstração, coesão, acoplamento e encapsulamento. \n Participar da aplicação de técnicas de tratamento de exceção e tolerância a falhas. \n Auxiliar a escolha de processo e de metodologia de design de software. \n Auxiliar a revisão de design de software \n Participar do emprego de estilos, visões, modelos e padrões de arquitetura de software. \n Participar do projeto de componentes e módulos de software usando modelos, padrões de projeto e notações. \n Auxiliar a execução de análise estática. \n Auxiliar a escolha de processos e modelos apropriados para a construção de software. \n Auxiliar a escolha de linguagens e ferramentas apropriadas para a construção de software. \n Auxiliar a escolha de frameworks, plataformas e ambientes de construção de construção de software. \n Participar da construção de software seguindo padrões de gerência de configuração e controle de versão. \n Participar da coleta e do monitoramento de medidas de qualidade de código. \n Participar da criação de design detalhado que minimiza a complexidade e melhora a qualidade. \n Participar da criação de código que implementa projetos detalhados. \n Indicar o uso de padrões de projeto. \n Participar da refatoração (refactoring) de código. \n Participar da construção de software que segue padrões de código. \n Participar da construção de software que faz uso de técnicas de codificação defensiva. \n Participar da geração de código a partir de modelos de projeto. \n Participar do uso apropriado de ferramentas e técnicas de depuração. \n Participar da criação de testes de unidade. \n Participar da construção de software que satisfaz objetivos de cobertura de testes. \n Participar da construção de software que segue estratégias e processos de integração e implantação. \n Participar da construção e realização de testes de integração. \n Participar da construção de software em equipe ao colaborar com outros membros da equipe. \n Participar de revisões e inspeções. \n Participar da elaboração e implementação de planos de testes. \n Participar da definição de um ambiente de teste e da correspondente implementação. \n Participar da identificação, design e implementação de testes. \n Participar da elaboração de relatórios de testes. \n Auxiliar a elaboração e execução de plano de transição de software. \n Auxiliar a elaboração e execução de planos de manutenção de software. \n Auxiliar a execução de atividades de processos de software. \n Auxiliar a definição e personalização de processos de software. \n Auxiliar a implementação e execução de processos de software. \n Auxiliar a coleta de dados para avaliação de processos de software. \n Auxiliar a definição e o desenvolvimento de software que satisfaz objetivos e atributos de qualidade. \n Auxiliar a identificação de medidas de qualidade apropriadas. \n Auxiliar a elaboração de planos e revisões de qualidade. \n Participar da construção de software que segue princípios recomendados para segurança de código. \n Participar da construção de software que segue um plano de gerência de configuração de software. \n Participar da documentação de software." 
+				"conteudo": " Da perspectiva de relações pessoais, o egresso deve ser capaz de: \n Participar de forma harmoniosa, profissional e ética durante a elaboração de produtos de software atribuídos a equipes. \n Liderar ação contínua de formação de sua própria reputação na área. \n Participar da comunicação de ideias com clareza, seja na forma verbal ou escrita. \n Da perspectiva técnica, o egresso deve ser capaz de: \n Participar de atividades para eliciar, analisar, especificar, validar e gerenciar requisitos de software. \n Participar da definição da solução de software que atende requisitos, ou seja, da definição da arquitetura e do projeto detalhado desse software. \n Participar da elaboração de modelos de análise e de projeto (design) de software. \n Participar da aplicação de técnicas de projeto ao desenvolver softwares concorrentes, distribuídos, orientados a objetos, orientados a eventos e que implementam a persistência de dados. \n Participar da avaliação de design de software considerando, dentre outros quesitos: abstração, coesão, acoplamento e encapsulamento. \n Participar da aplicação de técnicas de tratamento de exceção e tolerância a falhas. \n Auxiliar a escolha de processo e de metodologia de design de software. \n Auxiliar a revisão de design de software \n Participar do emprego de estilos, visões, modelos e padrões de arquitetura de software. \n Participar do projeto de componentes e módulos de software usando modelos, padrões de projeto e notações. \n Auxiliar a execução de análise estática. \n Auxiliar a escolha de processos e modelos apropriados para a construção de software. \n Auxiliar a escolha de linguagens e ferramentas apropriadas para a construção de software. \n Auxiliar a escolha de frameworks, plataformas e ambientes de construção de construção de software. \n Participar da construção de software seguindo padrões de gerência de configuração e controle de versão. \n Participar da coleta e do monitoramento de medidas de qualidade de código. \n Participar da criação de design detalhado que minimiza a complexidade e melhora a qualidade. \n Participar da criação de código que implementa projetos detalhados. \n Indicar o uso de padrões de projeto. \n Participar da refatoração (refactoring) de código. \n Participar da construção de software que segue padrões de código. \n Participar da construção de software que faz uso de técnicas de codificação defensiva. \n Participar da geração de código a partir de modelos de projeto. \n Participar do uso apropriado de ferramentas e técnicas de depuração. \n Participar da criação de testes de unidade. \n Participar da construção de software que satisfaz objetivos de cobertura de testes. \n Participar da construção de software que segue estratégias e processos de integração e implantação. \n Participar da construção e realização de testes de integração. \n Participar da construção de software em equipe ao colaborar com outros membros da equipe. \n Participar de revisões e inspeções. \n Participar da elaboração e implementação de planos de testes. \n Participar da definição de um ambiente de teste e da correspondente implementação. \n Participar da identificação, design e implementação de testes. \n Participar da elaboração de relatórios de testes. \n Auxiliar a elaboração e execução de plano de transição de software. \n Auxiliar a elaboração e execução de planos de manutenção de software. \n Auxiliar a execução de atividades de processos de software. \n Auxiliar a definição e personalização de processos de software. \n Auxiliar a implementação e execução de processos de software. \n Auxiliar a coleta de dados para avaliação de processos de software. \n Auxiliar a definição e o desenvolvimento de software que satisfaz objetivos e atributos de qualidade. \n Auxiliar a identificação de medidas de qualidade apropriadas. \n Auxiliar a elaboração de planos e revisões de qualidade. \n Participar da construção de software que segue princípios recomendados para segurança de código. \n Participar da construção de software que segue um plano de gerência de configuração de software. \n Participar da documentação de software."
 			}
 		]
 	},
-		{
-			"id": "principios-norteadores",
+	{
+		"id": "principios-norteadores",
 		"titulo": "Princípios norteadores",
-			"url": "/visao-geral/principios-norteadores",
-			"resumo": "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso e o perfil do egresso.",
+		"url": "/visao-geral/principios-norteadores",
+		"resumo": "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso e o perfil do egresso.",
 		"conteudo": "O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso e o perfil do egresso. Esses princípios são fornecidos abaixo.",
-		"subtopicos": [{
+		"subtopicos": [
+			{
 				"tipo": "texto",
 				"titulo": "Formação Ética e Função Social do Profissional",
 				"conteudo": "A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES. \n Ética é assunto de uma das disciplinas do primeiro semestre do curso, \"Computação e Sociedade\", e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso \"Prática em Engenharia de Software\". Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina. \n O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere. \n Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
@@ -193,5 +199,4 @@
 			}
 		]
 	}
-
 ]
