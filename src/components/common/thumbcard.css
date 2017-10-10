@@ -1,0 +1,12 @@
+.thumbcard-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbcard-element-vertical-center {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
+}

@@ -1,0 +1,27 @@
+.header-nav {
+    background-color: #fff;
+    color: black;
+}
+
+.header-tabs > div {
+    background-color: #ffffff !important;
+}
+
+.header-tabs > div > button {
+    color: #989898 !important;
+}
+
+.header-tabs > div > button:focus {
+    color: #51469B !important;
+}
+
+.header-background {
+    background-color: #4D6F81;
+}
+
+.header-intro {
+    position: relative;
+    color: white;
+    background-color: #4D6F81;
+    z-index: -1000;
+}

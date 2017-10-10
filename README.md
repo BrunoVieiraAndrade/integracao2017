@@ -1,7 +1,7 @@
 # Presença na Web
 
 Presença na Web é uma aplicação web que visa facilitar o consumo das informações contidas no documento Projeto Pedagógico do Bacharelado de Engenharia de Software da Universidade Federal de Goiás.
-A página pode ser verificada neste [link](https://brunovieiraandrade.github.io/integracao2017/)
+A página pode ser verificada neste [link](https://presencanaweb.surge.sh/)
 
 ## Começando
 
