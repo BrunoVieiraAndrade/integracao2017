@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { renderSubtopicText } from "../../helpers/global";
+import ListaNaoOrdenada from "./lista-nao-ordenada";
 
 class Topico extends Component {
 
@@ -33,6 +34,10 @@ class Topico extends Component {
             case 'texto':
               return (
                 renderSubtopicText(subtopico.titulo, subtopico.conteudo)
+              );
+            case 'lista_nao_ordenada':
+              return (
+                <ListaNaoOrdenada items={subtopico.conteudo} />
               );
             default:
               <div></div>

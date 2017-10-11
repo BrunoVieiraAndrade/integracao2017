@@ -10,10 +10,9 @@ import {CURSO_CATEGORIA, VISAO_GERAL_CATEGORIA} from "../../helpers/global";
 class DefaultPageContent extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      categoria: this.props.categoria,
-      topicoId: this.props.topicoId,
+      categoria: this.props.match.params.categoria,
+      topicoId: this.props.match.params.topicoId,
     };
   }
 
@@ -50,7 +49,6 @@ class DefaultPageContent extends Component {
     cursoJson.forEach((topico) => {
       if(topico.id) {
         if (topico.id === topicoId) {
-          this.consoleLog(topico.id);
           this.setState({topico: topico});
         }
       }

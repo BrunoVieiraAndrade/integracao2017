@@ -1,7 +1,7 @@
 [
     {
         "titulo": "Disciplinas de Formação Básica",
-        "topicos": [
+        "subtopicos": [
             {
                 "tipo": "card_expansível",
                 "titulo": "Computação e Sociedade",
@@ -433,7 +433,7 @@
     },
     {
         "titulo": "Disciplinas de Engenharia de Software",
-        "topicos": [
+        "subtopicos": [
             {
                 "tipo": "card_expansível",
                 "titulo": "Construção de Software",
@@ -1008,7 +1008,7 @@
     },
     {
         "titulo": "Disciplinas Optativas",
-        "topicos": [
+        "subtopicos": [
             {
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Operacionais",

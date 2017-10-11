@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 import PageHeader from '../common/page-header';
-
-import './visao-geral.css';
 import DefaultPageSection from "../common/default-page-section";
 
 import VisaoGeralJson from '../../data/VisaoGeral.json';
+
+import './visao-geral.css';
 
 class VisaoGeral extends Component {
   constructor(props) {
