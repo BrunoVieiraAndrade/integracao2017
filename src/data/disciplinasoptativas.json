@@ -1,70 +1,76 @@
 [
-/* DISCIPLINAS OPTATIVAS*/
-
-        {
-        "id":"D36",
+    /* DISCIPLINAS OPTATIVAS*/
+    {
+        "id": "D36",
         "nome": "Sistemas Operacionais",
         "nucleo": "NE",
         "teo": 32,
         "pra": 32,
         "total": 64,
         "periodo": "3°",
-        "unidade": "INF",   
+        "unidade": "INF",
         "obrigatoria": "Não",
-        "preRequisito:": ["D5"],
+        "preRequisito:": [
+            "D5"
+        ],
         "ementa": [
             "1. Conceitos de Hardware e Software.",
             "2. Tipos de Sistemas Operacionais. Organização da Estrutura Interna do Sistema Operacional. Gerência de Processos. Gerência do Processador. Gerência de Memória. Gerência de Dispositivos de Entrada e Saída. Sistemas de Arquivos.",
             "3. Estudos de casos de sistemas operacionais atuais."
         ]
-    }, 
-
+    },
     {
-        "id":"D37",
+        "id": "D37",
         "nome": "Pesquisa Operacional",
         "nucleo": "NE",
         "teo": 64,
         "pra": 0,
         "total": 64,
         "periodo": "3°",
-        "unidade": "INF",   
+        "unidade": "INF",
         "obrigatoria": "Não",
-        "preRequisito:": ["D8"],
+        "preRequisito:": [
+            "D8"
+        ],
         "ementa": [
             "1. Modelagem.",
             "2. Problema de Programação Linear (PL). Resolução gráfica de PL.",
             "3. Algoritmo Simplex. Dualidade. Algoritmo Simplex-Dual.",
             "4. Pós-otimização e Análise de Sensibilidade."
         ]
-    }, 
-        {
-        "id":"D38",
+    },
+    {
+        "id": "D38",
         "nome": "Linguagens Formais e Autômatos",
         "nucleo": "NE",
         "teo": 64,
         "pra": 0,
         "total": 64,
         "periodo": "3°",
-        "unidade": "INF",   
+        "unidade": "INF",
         "obrigatoria": "Não",
-        "preRequisito:": ["D4"],
+        "preRequisito:": [
+            "D4"
+        ],
         "ementa": [
             "1. Conceitos básicos de linguagens.",
             "2. Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades.",
             "3. Hierarquia de Chomsky."
         ]
-    }, 
-        {
-        "id":"D39",
+    },
+    {
+        "id": "D39",
         "nome": "Redes de computadores",
         "nucleo": "NE",
         "teo": 32,
         "pra": 32,
         "total": 64,
         "periodo": "4°",
-        "Unidade": "INF",   
+        "Unidade": "INF",
         "obrigatoria": "Não",
-        "preRequisito:": ["D36"],
+        "preRequisito:": [
+            "D36"
+        ],
         "ementa": [
             "1. Fundamentos.",
             "2. Arquitetura de Redes TCP/IP (Internet).",
@@ -73,17 +79,16 @@
             "5. Redes Sem Fio e Mobilidade.",
             "6. Estudo de Caso de Tópicos Emergentes em Redes."
         ]
-    }, 
-
-        {
-        "id":"D40",
+    },
+    {
+        "id": "D40",
         "nome": "Introdução à Língua Brasileira de Sinais",
         "nucleo": "NE",
         "teo": 64,
         "pra": 0,
         "total": 64,
         "periodo": "4°",
-        "unidade": "LETRAS",   
+        "unidade": "LETRAS",
         "obrigatoria": "Não",
         "preRequisito:": [],
         "ementa": [
@@ -91,18 +96,20 @@
             "2. Concepções sobre a Língua de Sinais.",
             "3. O surdo e a sociedade."
         ]
-    }, 
-        {
-        "id":"D41",
+    },
+    {
+        "id": "D41",
         "nome": "Compiladores",
         "nucleo": "NE",
         "teo": 64,
         "pra": 0,
         "total": 64,
         "periodo": "4°",
-        "unidade": "INF",   
+        "unidade": "INF",
         "obrigatoria": "Não",
-        "preRequisito:": ["D11, D37"],
+        "preRequisito:": [
+            "D11, D37"
+        ],
         "ementa": [
             "1. A estrutura de um compilador.",
             "2. Análises léxica e sintática.",
@@ -113,18 +120,20 @@
             "7. Introdução à otimização do código-objeto",
             "8. Implementação de um compilador"
         ]
-    }, 
-        {
-        "id":"D42",
+    },
+    {
+        "id": "D42",
         "nome": "Sistemas Distribuídos",
         "nucleo": "NE",
         "teo": 32,
         "pra": 32,
         "total": 64,
         "periodo": "8°",
-        "unidade": "INF",   
+        "unidade": "INF",
         "obrigatoria": "Não",
-        "preRequisito:": ["D10"],
+        "preRequisito:": [
+            "D10"
+        ],
         "ementa": [
             "1. Introdução a Sistemas Distribuídos",
             "2. Invocação Remota",
@@ -132,18 +141,20 @@
             "4. Arquiteturas Orientadas a Serviços e utilização de serviços Web.",
             "5. Computação Móvel e Ubíqua Estudo de Casos de Tópicos Emergentes em Sistemas Distribuídos."
         ]
-    }, 
-        {
-        "id":"D43",
+    },
+    {
+        "id": "D43",
         "nome": "",
         "nucleo": "NC",
         "teo": 32,
         "pra": 32,
         "total": 64,
         "periodo": "2°",
-        "unidade": "INF",   
+        "unidade": "INF",
         "obrigatoria": "Sim",
-        "preRequisito:": ["D2"],
+        "preRequisito:": [
+            "D2"
+        ],
         "ementa": [
             "1. ",
             "2. ",
