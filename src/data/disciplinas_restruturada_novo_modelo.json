@@ -1,10 +1,13 @@
 [
     {
+        "id": "disciplinas_de_formacao_basica",
         "titulo": "Disciplinas de Formação Básica",
         "subtopicos": [
             {
+                "id": "computacao_e_sociedade",
                 "tipo": "card_expansível",
                 "titulo": "Computação e Sociedade",
+                "url": "/disciplinas/computacao_e_sociedade",
                 "conteudo": {
                     "id": "D1",
                     "nome": "Computação e Sociedade",
@@ -15,7 +18,7 @@
                     "periodo": "1°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. História da computação.",
                         "2. Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.",
@@ -31,8 +34,10 @@
                 }
             },
             {
+                "id": "introducacao_a_programacao",
                 "tipo": "card_expansível",
                 "titulo": "Introdução à Programação",
+                "url": "/disciplinas/introducacao_a_programacao",
                 "conteudo": {
                     "id": "D2",
                     "nome": "Introdução à Programação",
@@ -43,7 +48,7 @@
                     "periodo": "1°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Introdução a algoritmos.",
                         "2. Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.",
@@ -58,8 +63,10 @@
                 }
             },
             {
+                "id": "calculo_1a",
                 "tipo": "card_expansível",
-                "titulo": "Cálculo lA",
+                "titulo": "Cálculo 1A",
+                "url": "/disciplinas/calculo_1a",
                 "conteudo": {
                     "id": "D3",
                     "nome": "Cálculo lA",
@@ -70,7 +77,7 @@
                     "periodo": "1°",
                     "unidade": "IME",
                     "obrigatoria": "Sim",
-                    "prerequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Números reais. Funções reais de uma variável real e suas inversas.",
                         "2. Noções sobre cônicas.",
@@ -83,8 +90,10 @@
                 }
             },
             {
+                "id": "fundamentos_de_matematica_para_computacao",
                 "tipo": "card_expansível",
                 "titulo": "Fundamentos de Matemática para Computação",
+                "url": "/disciplinas/fundamentos_de_matematica_para_computacao",
                 "conteudo": {
                     "id": "D4",
                     "nome": "Fundamentos de Matemática para Computação",
@@ -95,7 +104,7 @@
                     "periodo": "1°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Noções de lógica.",
                         "2. Introdução a demonstrações",
@@ -107,8 +116,10 @@
                 }
             },
             {
+                "id": "arquitetura_de_computadores",
                 "tipo": "card_expansível",
                 "titulo": "Arquitetura de Computadores",
+                "url": "/disciplinas/arquitetura_de_computadores",
                 "conteudo": {
                     "id": "D5",
                     "nome": "Arquitetura de Computadores",
@@ -119,7 +130,7 @@
                     "periodo": "2°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D4"],
+                    "prerequisito": ["D4"],
                     "ementa": [
                         "1. Visão geral dos computadores modernos.",
                         "2. Evolução da arquitetura dos computadores.",
@@ -135,8 +146,10 @@
                 }
             },
             {
+                "id": "algoritmos_e_estrutura_de_dados_1",
                 "tipo": "card_expansível",
                 "titulo": "Algoritmos e Estruturas de Dados 1",
+                "url": "/disciplinas/algoritmos_e_estrutura_de_dados_1",
                 "conteudo": {
                     "id": "D6",
                     "nome": "Algoritmos e Estruturas de Dados 1",
@@ -147,7 +160,7 @@
                     "periodo": "2°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D2"],
+                    "prerequisito": ["D2"],
                     "ementa": [
                         "1. Noções de complexidade de algoritmos (notações de complexidade).",
                         "2. Algoritmos de pesquisa: pesquisa sequencial e binária.",
@@ -159,8 +172,10 @@
                 }
             },
             {
+                "id": "probabilidade_e_estatistica_a",
                 "tipo": "card_expansível",
                 "titulo": "Probabilidade e Estatística A",
+                "url": "/disciplinas/probabilidade_e_estatistica_a",
                 "conteudo": {
                     "id": "D7",
                     "nome": "Probabilidade e Estatística A",
@@ -171,7 +186,7 @@
                     "periodo": "2°",
                     "unidade": "IME",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D3"],
+                    "prerequisito": ["D3"],
                     "ementa": [
                         "1. Estatística descritiva. Noções sobre amostragem.",
                         "2. Introdução à teoria de conjuntos.",
@@ -186,8 +201,10 @@
                 }
             },
             {
+                "id": "algebra_linear",
                 "tipo": "card_expansível",
                 "titulo": "Álgebra Linear",
+                "url": "/disciplinas/algebra_linear",
                 "conteudo": {
                     "id": "D8",
                     "nome": "Álgebra Linear",
@@ -198,7 +215,7 @@
                     "periodo": "2°",
                     "unidade": "IME",
                     "obrigatoria": "Sim",
-                    "prerequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Sistemas lineares e matrizes.",
                         "2. Espaços vetoriais.",
@@ -209,8 +226,10 @@
                 }
             },
             {
+                "id": "logica_matematica",
                 "tipo": "card_expansível",
                 "titulo": "Lógica Matemática",
+                "url": "/disciplinas/logica_matematica",
                 "conteudo": {
                     "id": "D9",
                     "nome": "Lógica Matemática",
@@ -221,7 +240,7 @@
                     "periodo": "2°",
                     "unidade": "IME",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D4"],
+                    "prerequisito": ["D4"],
                     "ementa": [
                         "1. Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);",
                         "2. Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural",
@@ -231,8 +250,10 @@
                 }
             },
             {
+                "id": "programacao_orientada_a_objetos",
                 "tipo": "card_expansível",
                 "titulo": "Programação Orientada a Objetos",
+                "url": "/disciplinas/programacao_orientada_a_objetos",
                 "conteudo": {
                     "id": "D10",
                     "nome": "Programação Orientada a Objetos",
@@ -243,7 +264,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D2"],
+                    "prerequisito": ["D2"],
                     "ementa": [
                         "1. Abstração e tipos abstratos de dados.",
                         "2. Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo.",
@@ -254,8 +275,10 @@
                 }
             },
             {
+                "id": "algoritmos_e_estruturas_de_dados_2",
                 "tipo": "card_expansível",
                 "titulo": "Algoritmos e Estruturas de Dados 2",
+                "url": "/disciplinas/algoritmos_e_estruturas_de_dados_2",
                 "conteudo": {
                     "id": "D11",
                     "nome": "Algoritmos e Estruturas de Dados 2",
@@ -266,7 +289,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D6"],
+                    "prerequisito": ["D6"],
                     "ementa": [
                         "1. Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).",
                         "2. Filas de prioridades. Heaps, Heapsort. Hashing: tipos de funções de hashing; tratamento de colisões.",
@@ -277,8 +300,10 @@
                 }
             },
             {
+                "id": "linguagens_e_paradigmas_de_programacao",
                 "tipo": "card_expansível",
                 "titulo": "Linguagens e Paradigmas de Programação",
+                "url": "/disciplinas/linguagens_e_paradigmas_de_programacao",
                 "conteudo": {
                     "id": "D12",
                     "nome": "Linguagens e Paradigmas de Programação",
@@ -289,7 +314,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D2"],
+                    "prerequisito": ["D2"],
                     "ementa": [
                         "1. Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.",
                         "2. Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação.",
@@ -299,8 +324,10 @@
                 }
             },
             {
+                "id": "engenharia_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Engenharia de Software",
+                "url": "/disciplinas/engenharia_de_software",
                 "conteudo": {
                     "id": "D13",
                     "nome": "Engenharia de Software",
@@ -311,7 +338,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Requisitos de software.",
                         "2. Projeto (design) de software.",
@@ -330,8 +357,10 @@
                 }
             },
             {
+                "id": "analise_e_projeto_de_algoritmos",
                 "tipo": "card_expansível",
                 "titulo": "Análise e Projeto de Algoritmos",
+                "url": "/disciplinas/analise_e_projeto_de_algoritmos",
                 "conteudo": {
                     "id": "D14",
                     "nome": "Análise e Projeto de Algoritmos",
@@ -342,7 +371,7 @@
                     "periodo": "4°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D4","D11"],
+                    "prerequisito": ["D4","D11"],
                     "ementa": [
                         "1. Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.",
                         "2. Corretude de Algoritmos.",
@@ -353,8 +382,10 @@
                 }
             },
             {
+                "id": "interacao_humano_computador",
                 "tipo": "card_expansível",
                 "titulo": "Interação Humano-Computador",
+                "url": "/disciplinas/interacao_humano_computador",
                 "conteudo": {
                     "id": "D15",
                     "nome": "Interação Humano-Computador",
@@ -365,7 +396,7 @@
                     "periodo": "4°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D6","D7"],
+                    "prerequisito": ["D6","D7"],
                     "ementa": [
                         "1. Aspectos gerais sobre interação humano-computador.",
                         "2. Características humanísticas e biológicas, envolvendo questões sobre genealogia, gênero, aspectos étnicos, raciais e culturais, direitos e aspectos políticos, deficiências, limitações e capacidades, dentre outros.",
@@ -381,8 +412,10 @@
                 }
             },
             {
+                "id": "banco_de_dados",
                 "tipo": "card_expansível",
                 "titulo": "Banco de Dados",
+                "url": "/disciplinas/banco_de_dados",
                 "conteudo": {
                     "id": "D16",
                     "nome": "Banco de Dados",
@@ -393,7 +426,7 @@
                     "periodo": "4°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D9"],
+                    "prerequisito": ["D9"],
                     "ementa": [
                         "1. Conceitos básicos de Banco de Dados.",
                         "2. Modelo relacional.",
@@ -405,8 +438,10 @@
                 }
             },
             {
+                "id": "projeto_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Projeto de Software",
+                "url": "/disciplinas/projeto_de_software",
                 "conteudo": {
                     "id": "D17",
                     "nome": "Projeto de Software",
@@ -417,7 +452,7 @@
                     "periodo": "4°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito:": ["D10","D13"],
+                    "prerequisito": ["D10","D13"],
                     "ementa": [
                         "1. Fundamentos de design de software.",
                         "2. Questões básicas de design de software: concorrência, controle e tratamento de eventos, persistência de dados, distribuição, tratamento de erro e exceção, tolerância a falhas, interação e apresentação, e segurança. Estrutura e arquitetura de software.",
@@ -432,11 +467,15 @@
         ]
     },
     {
+        "id": "disciplinas_de_engenharia_de_software",
         "titulo": "Disciplinas de Engenharia de Software",
+        "url": "/disciplinas/disciplinas_de_engenharia_de_software",
         "subtopicos": [
             {
+                "id": "construcao_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Construção de Software",
+                "url": "/disciplinas/construcao_de_software",
                 "conteudo": {
                     "id": "D18",
                     "nome": "Construção de Software",
@@ -447,7 +486,7 @@
                     "periodo": "5°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Visão geral (4h): construção (minimizar complexidade, antecipação de mudança, verificação, padrões), projeto de software (sofware design), qualidade de produto.",
                         "2. Planejamento (8h): linguagens de programação e processos de construção.",
@@ -474,8 +513,10 @@
                 }
             },
             {
+                "id": "modelagem_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Modelagem de Software",
+                "url": "/disciplinas/modelagem_de_software",
                 "conteudo": {
                     "id": "D19",
                     "nome": "Modelagem de Software",
@@ -486,7 +527,7 @@
                     "periodo": "5°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software.",
                         "2. Processo de projeto de software (4h).",
@@ -501,8 +542,10 @@
                 }
             },
             {
+                "id": "processos_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Processos de Software",
+                "url": "/disciplinas/processos_de_software",
                 "conteudo": {
                     "id": "D20",
                     "nome": "Processos de Software",
@@ -513,7 +556,7 @@
                     "preiodo": "5°",
                     "enidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Visão geral (8h): processo, método e modelo.",
                         "2. Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h).",
@@ -529,8 +572,10 @@
                 }
             },
             {
+                "id": "engenharia_de_sistemas",
                 "tipo": "card_expansível",
                 "titulo": "Engenharia de Sistemas",
+                "url": "/disciplinas/engenharia_de_sistemas",
                 "conteudo": {
                     "id": "D21",
                     "nome": "Engenharia de Sistemas",
@@ -541,7 +586,7 @@
                     "periodo": "5°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz.",
                         "2. Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; prmcipios do pensamento sistêmico; representação de sistemas por modelos.",
@@ -556,8 +601,10 @@
                 }
             },
             {
+                "id": "design_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Design de Software",
+                "url": "/disciplinas/design_de_software",
                 "conteudo": {
                     "id": "D22",
                     "nome": "Design de Software",
@@ -568,7 +615,7 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
                         "2. Contexto de projeto de software (4h).",
@@ -592,8 +639,10 @@
                 }
             },
             {
+                "id": "dominios_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Domínios de Software",
+                "url": "/disciplinas/dominios_de_software",
                 "conteudo": {
                     "id": "D23",
                     "nome": "Domínios de Software",
@@ -604,7 +653,7 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles.",
                         "2. Especificidades de alguns domínios de desenvolvimento (8h).",
@@ -624,8 +673,10 @@
                 }
             },
             {
+                "id": "processos_de_qualidade_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Processos de Qualidade de Software",
+                "url": "/disciplinas/processos_de_qualidade_de_software",
                 "conteudo": {
                     "id": "D24",
                     "nome": "Processos de Qualidade de Software",
@@ -636,7 +687,7 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software.",
                         "2. Processo de garantia da qualidade de software (IOh): garantia do produto e garantia do processo.",
@@ -656,8 +707,10 @@
                 }
             },
             {
+                "id": "gerencia_de_projeto_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Gerência de Projeto de Software",
+                "url": "/disciplinas/gerencia_de_projeto_de_software",
                 "conteudo": {
                     "id": "D25",
                     "nome": "Gerência de Projeto de Software",
@@ -668,7 +721,7 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO).",
                         "2. Tipos de projeto de software (4h): aquisição, desenvolvimento, refatoração, descontinuação.",
@@ -684,8 +737,10 @@
                 }
             },
             {
+                "id": "software_concorrente_e_distribuido",
                 "tipo": "card_expansível",
                 "titulo": "Software Concorrente e Distribuído",
+                "url": "/disciplinas/software_concorrente_e_distribuido",
                 "conteudo": {
                     "id": "D26",
                     "nome": "Software Concorrente e Distribuído",
@@ -696,7 +751,7 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.",
                         "2. Conceitos (4h): middleware, distribuição, paralelismo, concorrência, RESTful, web, internet das coisas, contêineres, troca de mensagens, micro-serviços, serviços web.",
@@ -720,8 +775,10 @@
                 }
             },
             {
+                "id": "experiencia_do_usuario_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Experiência do Usuário de Software",
+                "url": "/disciplinas/experiencia_do_usuario_de_software",
                 "conteudo": {
                     "id": "D27",
                     "nome": "Experiência do Usuário de Software",
@@ -732,7 +789,7 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Qualidade em uso (4h): usabilidade, acessibilidade.",
                         "2. Design centrado no usuário (8h): diretrizes, pesquisa, personas, jornadas de usuário, modelagem (especificação) e ferramentas.",
@@ -756,8 +813,10 @@
                 }
             },
             {
+                "id": "arquitetura_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Arquitetura de Software",
+                "url": "/disciplinas/arquitetura_de_software",
                 "conteudo": {
                     "id": "D28",
                     "nome": "Arquitetura de Software",
@@ -768,7 +827,7 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
                         "2. Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura.",
@@ -787,8 +846,10 @@
                 }
             },
             {
+                "id": "requisitos_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Requisitos de Software",
+                "url": "/disciplinas/requisitos_de_software",
                 "conteudo": {
                     "id": "D29",
                     "nome": "Requisitos de Software",
@@ -799,7 +860,7 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.",
                         "2. Modelos e métodos da engenharia de requisitos (32).",
@@ -819,8 +880,10 @@
                 }
             },
             {
+                "id": "governanca_e_gestao_de_servicos_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Governança e Gestão de Serviços de Software",
+                "url": "/disciplinas/governanca_e_gestao_de_servicos_de_software",
                 "conteudo": {
                     "id": "D30",
                     "nome": "Governança e Gestão de Serviços de Software",
@@ -831,7 +894,7 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS.",
                         "2. Abordagens para GS (8h): aplicação de abordagens de GS em um contexto organizacional. Objetivos de controle para GS; indicadores e avaliação de desempenho de software; direcionamento, avaliação e controle do uso de serviços de software para apoiar os objetivos de uma organização.",
@@ -851,8 +914,10 @@
                 }
             },
             {
+                "id": "software_para_sistemas_ubiquos",
                 "tipo": "card_expansível",
                 "titulo": "Software para Sistemas Ubíquos",
+                "url": "/disciplinas/software_para_sistemas_ubiquos",
                 "conteudo": {
                     "id": "D31",
                     "nome": "Software para Sistemas Ubíquos",
@@ -863,7 +928,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).",
                         "2. Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.",
@@ -886,8 +951,10 @@
                 }
             },
             {
+                "id": "software_para_persistencia_de_dados",
                 "tipo": "card_expansível",
                 "titulo": "Software para Persistência de Dados",
+                "url": "/disciplinas/software_para_persistencia_de_dados",
                 "conteudo": {
                     "id": "D32",
                     "nome": "Software para Persistência de Dados",
@@ -898,7 +965,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Visão geral de persistência (12h): arquivos em formato texto/binário. Serialização de objetos. Documentos XML. JSON. Bancos de dados relacionais. Bancos NoSql.",
                         "2. Modelagem e implementação de bancos de dados (28h).",
@@ -917,8 +984,10 @@
                 }
             },
             {
+                "id": "padroes_de_arquitetura_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Padrões de Arquitetura de Software",
+                "url": "/disciplinas/padroes_de_arquitetura_de_software",
                 "conteudo": {
                     "id": "D33",
                     "nome": "Padrões de Arquitetura de Software",
@@ -929,7 +998,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC.",
                         "2. Norma ISO/IEC/IEEE 42010:2011 (8h).",
@@ -946,8 +1015,10 @@
                 }
             },
             {
+                "id": "teste_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Teste de Software",
+                "url": "/disciplinas/teste_de_software",
                 "conteudo": {
                     "id": "D34",
                     "nome": "Teste de Software",
@@ -958,7 +1029,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Processo de construção (8h): definições básicas, atividades e documentação.",
                         "2. Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas."
@@ -980,8 +1051,10 @@
                 }
             },
             {
+                "id": "pratica_em_engenharia_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Prática em Engenharia de Software",
+                "url": "/disciplinas/pratica_em_engenharia_de_software",
                 "conteudo": {
                     "id": "D35",
                     "nome": "Prática em Engenharia de Software",
@@ -992,7 +1065,7 @@
                     "periodo": "9°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "descricao": "O egresso do BES passa pela vivência de dois tipos de experiências práticas diferentes em suas essências. O primeiro grupo de experiências é composto pelas experiências promovidas nas atividades práticas realizadas de maneira contínua e integrada desde o início do curso, no contexto das diversas disciplinas teórico-práticas que compõem a grade curricular do BES. O segundo tipo de experiências é proporcionado pela disciplina \"Prática em Engenharia de Software\", que envolve a participação integral do aluno em projetos reais de Engenharia de Software realizados em ambiente típico da indústria de software. É importante contrapor esse cenário de \"projeto real\", onde todas as competências são exigidas, com o cenário das atividades práticas realizadas dentro do contexto de uma disciplina, normalmente limitado pelo conteúdo da própria disciplina. A Engenharia de Software compreende o uso de processos. Tais processos são claramente explicitados no projeto pedagógico do curso e podem ser classificados em dois grandes tipos: Processos Técnicos de Engenharia de Software e Processos de Gestão de Engenharia de Software. Além disso, o domínio de Tecnologias de Engenharia de Software, aplicadas tanto a processos técnicos quanto a processos de gestão de Engenharia de Software, é uma competência obrigatória para o profissional que trabalha com software. Assim, pode-se considerar que o Engenheiro de Software deve ser capaz de realizar atividades que envolvem três tipos de competências: técnicas, gerenciais e tecnológicas. A disciplina \"Prática em Engenharia de Software\" fornece o ambiente necessário para o amadurecimento das competências dos estudantes, pela aquisição de conhecimentos e desenvolvimento de habilidades e atitudes como profissional de Engenharia de Software. Esta prática acontece na fase final do currículo, na qual são reforçadas as habilidades, competências e conhecimentos adquiridos ao longo das disciplinas teórico-práticas do curso, em um ambiente que representa de forma realista os cenários que serão experimentados na vida profissional do Engenheiro de Software. O INF possui uma Fábrica de Software (FS/INF) [CUSUMANO]. O termo \"Fábrica\" indica um comprometimento de longo prazo e de esforços integrados, acima do nível de projetos individuais, para aprimorar todas as operações de obtenção de software [AAEN]. NA FS/INF, os projetos têm como objetivo atender as necessidades de usuários e patrocinadores reais, ou seja, visam a geração de produtos e/ou a prestação de serviços em Engenharia de Software para a sociedade. Dessa forma, os projetos precisam atender, por exemplo, requisitos de qualidade, de escopo e restrições de custo e prazo definidos pelas partes interessadas do projeto em questão. Além disso, a FS/INF também é responsável por garantir os requisitos definidos pelas normas técnicas aplicáveis de Engenharia de Software. Todas as atividades da Prática em Engenharia de Software previstas no BES são realizadas na FS/INF, sob a supervisão direta de docentes do Instituto de Informática. Portanto, a cada semestre letivo, a FS/INF recebe docentes e estudantes que atuarão nos seus projetos. Cabe ressaltar que, embora os projetos e as atividades da FS/INF não estejam limitados pelo calendário acadêmico, existe um compromisso entre a FS/INF e o curso de BES assegurando que o processo de Gestão do Portfólio da Fábrica selecionará os projetos e as atividades que apresentem condições adequadas ao exercício das práticas de Engenharia de Software pelos estudantes como descritas nesse PPC. Desta forma, o estudante terá a oportunidade concreta de integrar teoria e prática, envolvendo-se em situações-problema geradas pela experiência de campo e que exigem atividades de pesquisa, consultorias, debates e adoção de novas condutas. É também uma oportunidade para que o estudante seja avaliado quanto à sua atitude ética e profissional, quanto ao respeito às normas institucionais da FS/INF e quanto à sua relação com os demais envolvidos no projeto, incluindo usuários e patrocinadores. A \"Prática em Engenharia de Software\" é realizada pelo estudante preferencialmente após ter obtido aprovação nas demais disciplinas do BES. A disciplina é integralizada com 320 horas de atividades relacionadas a projetos da FS/INF, é ofertada a cada semestre letivo e os docentes atuam como preceptores. Neste sentido, o docente é o profissional responsável pela integração teoria-prática ao longo do projeto, ensinando, supervisionando, orientando e conduzindo o aluno na prática efetiva de sua futura profissão. Os estudantes são divididos em três grupos para melhor acompanhamento das atividades. Cada grupo, em um dado instante, realiza um tipo de atividade típica do exercício profissional: processos técnicos, processos de gestão ou domínio de tecnologias. Ao final da disciplina, é garantido que todos os grupos vivenciaram atividades dos três tipos. A avaliação do estudante é formativa, enfatizando o seu acompanhamento durante todo o período letivo, com o intuito de não apenas verificar se o estudante está alcançando os objetivos propostos, mas também informando seus erros e acertos, além de promover o estímulo necessário para continuar os estudos e o seu desenvolvimento. Concluindo, a disciplina \"Prática em Engenharia de Software\" favorece um ensino baseado na prática, com foco centrado na ética e na postura do profissional de Engenharia de Software perante os desafios que ocorrem quando se trabalha com software, que é um dos artefatos mais complexos que a humanidade produz. Quando o estudante atua em atividades práticas relevantes para a sua futura vida profissional, enfrentando os desafios reais de sua profissão ainda durante sua formação, sua compreensão se torna cada vez mais crítica e comprometida com a sociedade na qual se insere. Portanto, essa disciplina estimula e valoriza as dimensões ética e humanística na formação do Engenheiro de Software, desenvolvendo atitudes e valores orientados para a cidadania e para o desenvolvimento da sociedade.",
                     "ementa": [
                         "1. Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade; seleção e utilização de normas, métodos, técnicas e ferramentas de Engenharia de Software para atingir objetivos estabelecidos no projeto; integração e consolidação de conhecimentos e habilidades esperadas do profissional de Engenharia de Software; exercício de práticas e atitudes profissionais embasadas no código de ética e na postura profissional da Engenharia de Software; prática em processos técnicos de Engenharia de Software; prática em Gestão de Engenharia de Software; prática em Tecnologias de Engenharia de Software."
@@ -1007,11 +1080,14 @@
         ]
     },
     {
+        "id": "disciplinas_optativas",
         "titulo": "Disciplinas Optativas",
         "subtopicos": [
             {
+                "id": "sistemas_operacionais",
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Operacionais",
+                "url": "/disciplinas/sistemas_operacionais",
                 "conteudo": {
                     "id": "D36",
                     "nome": "Sistemas Operacionais",
@@ -1022,7 +1098,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": ["D5"],
+                    "prerequisito": ["D5"],
                     "ementa": [
                         "1. Conceitos de Hardware e Software.",
                         "2. Tipos de Sistemas Operacionais. Organização da Estrutura Interna do Sistema Operacional. Gerência de Processos. Gerência do Processador. Gerência de Memória. Gerência de Dispositivos de Entrada e Saída. Sistemas de Arquivos.",
@@ -1031,8 +1107,10 @@
                 }
             },
             {
+                "id": "pesquisa_operacional",
                 "tipo": "card_expansível",
                 "titulo": "Pesquisa Operacional",
+                "url": "/disciplinas/pesquisa_operacional",
                 "conteudo": {
                     "id": "D37",
                     "nome": "Pesquisa Operacional",
@@ -1043,7 +1121,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": ["D8"],
+                    "prerequisito": ["D8"],
                     "ementa": [
                         "1. Modelagem.",
                         "2. Problema de Programação Linear (PL). Resolução gráfica de PL.",
@@ -1053,8 +1131,10 @@
                 }
             },
             {
+                "id": "linguagens_formais_e_automatos",
                 "tipo": "card_expansível",
                 "titulo": "Linguagens Formais e Autômatos",
+                "url": "/disciplinas/linguagens_formais_e_automatos",
                 "conteudo": {
                     "id": "D38",
                     "nome": "Linguagens Formais e Autômatos",
@@ -1065,7 +1145,7 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": ["D4"],
+                    "prerequisito": ["D4"],
                     "ementa": [
                         "1. Conceitos básicos de linguagens.",
                         "2. Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades.",
@@ -1074,8 +1154,10 @@
                 }
             },
             {
+                "id": "redes_de_computadores",
                 "tipo": "card_expansível",
                 "titulo": "Redes de computadores",
+                "url": "/disciplinas/redes_de_computadores",
                 "conteudo": {
                     "id": "D39",
                     "nome": "Redes de computadores",
@@ -1086,7 +1168,7 @@
                     "periodo": "4°",
                     "Unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": ["D36"],
+                    "prerequisito": ["D36"],
                     "ementa": [
                         "1. Fundamentos.",
                         "2. Arquitetura de Redes TCP/IP (Internet).",
@@ -1098,8 +1180,10 @@
                 }
             },
             {
+                "id": "introducao_a_lingua_brasileira_de_sinais",
                 "tipo": "card_expansível",
                 "titulo": "Introdução à Língua Brasileira de Sinais",
+                "url": "/disciplinas/introducao_a_lingua_brasileira_de_sinais",
                 "conteudo": {
                     "id": "D40",
                     "nome": "Introdução à Língua Brasileira de Sinais",
@@ -1110,7 +1194,7 @@
                     "periodo": "4°",
                     "unidade": "LETRAS",
                     "obrigatoria": "Não",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares.",
                         "2. Concepções sobre a Língua de Sinais.",
@@ -1119,8 +1203,10 @@
                 }
             },
             {
+                "id": "compiladores",
                 "tipo": "card_expansível",
                 "titulo": "Compiladores",
+                "url": "/disciplinas/compiladores",
                 "conteudo": {
                     "id": "D41",
                     "nome": "Compiladores",
@@ -1131,7 +1217,7 @@
                     "periodo": "4°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": ["D11, D37"],
+                    "prerequisito": ["D11, D37"],
                     "ementa": [
                         "1. A estrutura de um compilador.",
                         "2. Análises léxica e sintática.",
@@ -1145,8 +1231,10 @@
                 }
             },
             {
+                "id": "sistemas_distribuidos",
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Distribuídos",
+                "url": "/disciplinas/sistemas_distribuidos",
                 "conteudo": {
                     "id": "D42",
                     "nome": "Sistemas Distribuídos",
@@ -1157,7 +1245,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": ["D10"],
+                    "prerequisito": ["D10"],
                     "ementa": [
                         "1. Introdução a Sistemas Distribuídos",
                         "2. Invocação Remota",
@@ -1168,8 +1256,10 @@
                 }
             },
             {
+                "id": "metodologia_e_experimentacao_em_engenharia_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Metodologia e Experimentação em Engenharia de Software",
+                "url": "/disciplinas/metodologia_e_experimentacao_em_engenharia_de_software",
                 "conteudo": {
                     "id": "D43",
                     "nome": "Metodologia e Experimentação em Engenharia de Software",
@@ -1180,7 +1270,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software.",
                         "2. Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura.",
@@ -1193,8 +1283,10 @@
                 }
             },
             {
+                "id": "mercado_e_economia_de_software",
                 "tipo": "card_expansível",
                 "titulo": "Mercado e Economia de Software",
+                "url": "/disciplinas/mercado_e_economia_de_software",
                 "conteudo": {
                     "id": "D44",
                     "nome": "Mercado e Economia de Software",
@@ -1205,7 +1297,7 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "preRequisito:": [],
+                    "prerequisito": [],
                     "ementa": [
                         "1. Modelos de negócio para software (aluguel, serviço, código aberto).",
                         "2. Leis, normas, impostos e legislação brasileira para o mercado local e para a exportação de software.",

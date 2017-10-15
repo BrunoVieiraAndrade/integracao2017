@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 export const VISAO_GERAL_CATEGORIA = 'visao-geral';
 export const CURSO_CATEGORIA = 'curso';
+export const DISCIPLINAS_CATEGORIA = 'disciplinas';
 export const IDENTIFICACAO_TOPICO = 'identificacao';
 export const CONTEXTO_TOPICO = 'contexto';
 export const EXPOSICAO_DE_MOTIVOS_TOPICO = 'exposicao-de-motivos';

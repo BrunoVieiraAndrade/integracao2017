@@ -76,7 +76,7 @@ class DefaultPageContent extends Component {
             </div>
           </div>
         </section>
-        
+
       </div>
     );
   }
