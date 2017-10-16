@@ -89,7 +89,7 @@ function searchJson(listaDeObjetoJson, chaveDeBusca){
 	  minMatchCharLength: 1,
 	  keys: [
 		"titulo",
-		"descricao",
+		"conteudo",
 		"topicos.tipo",
 		"topicos.titulo",
 		"topicos.conteudo"

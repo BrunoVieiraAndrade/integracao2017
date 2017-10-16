@@ -4,17 +4,15 @@ import { Switch, Route } from 'react-router-dom';
 import Home from "../home/home";
 import VisaoGeral from "../visao_geral/visao_geral";
 import Curso from "../curso/curso";
+import Disciplina from "../disciplinas/disciplina";
+import Disciplinas from "../disciplinas/disciplinas";
 import DefaultPageContent from "./default-page-content";
+import SearchResults from "../search/search-results";
 
 import {
   VISAO_GERAL_CATEGORIA,
   CURSO_CATEGORIA,
-  IDENTIFICACAO_TOPICO,
-  CONTEXTO_TOPICO,
-  EXPOSICAO_DE_MOTIVOS_TOPICO,
-  OBJETIVOS_TOPICO,
-  EXPECTATIVA_DA_FORMACAO_DO_PROFISSIONAL_TOPICO,
-  PRINCIPIOS_NORTEADORES
+  DISCIPLINAS_CATEGORIA,
 } from '../../helpers/global.js'
 
 class Content extends Component {
@@ -23,15 +21,12 @@ class Content extends Component {
       <Switch>
         <div role="main" className="main">
           <Route exact path="/" component={ Home }/>
+          <Route exact path={"/q=:searchTerm"} component={ SearchResults } />
           <Route exact path={"/" + VISAO_GERAL_CATEGORIA} component={ VisaoGeral } />
-          <Route path={"/" + CURSO_CATEGORIA} component={ Curso } />
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + IDENTIFICACAO_TOPICO} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={IDENTIFICACAO_TOPICO}/>}/>
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + CONTEXTO_TOPICO} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={CONTEXTO_TOPICO} />}/>
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + EXPOSICAO_DE_MOTIVOS_TOPICO} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={EXPOSICAO_DE_MOTIVOS_TOPICO}/>}/>
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + OBJETIVOS_TOPICO} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={OBJETIVOS_TOPICO} />}/>
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + EXPECTATIVA_DA_FORMACAO_DO_PROFISSIONAL_TOPICO} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={EXPECTATIVA_DA_FORMACAO_DO_PROFISSIONAL_TOPICO}/>}/>
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + EXPECTATIVA_DA_FORMACAO_DO_PROFISSIONAL_TOPICO} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={EXPECTATIVA_DA_FORMACAO_DO_PROFISSIONAL_TOPICO}/>}/>
-          <Route path={"/" + VISAO_GERAL_CATEGORIA + "/" + PRINCIPIOS_NORTEADORES} render={()=><DefaultPageContent categoria={VISAO_GERAL_CATEGORIA} topicoId={PRINCIPIOS_NORTEADORES}/>}/>
+          <Route exact path={"/" + CURSO_CATEGORIA} component={ Curso } />
+          <Route exact path={"/" + DISCIPLINAS_CATEGORIA} component={ Disciplinas } />
+          <Route exact path={"/" + DISCIPLINAS_CATEGORIA + "/:disciplinaId"} component={ Disciplina } />
+          <Route exact path={"/:categoria/:topicoId"} component={ DefaultPageContent } />
         </div>
       </Switch>
     );
