@@ -82,7 +82,7 @@ class HeaderContactInfo extends Component {
                             <ul className="dropdown-menu custom-fullwidth-dropdown-menu"
                                 style={{backgroundColor: '#ba9459'}}>
                               <form id="propertiesFormHeader" action="/q=" method="GET"
-                                    novalidate="novalidate" onSubmit={this.onSubmit.bind(this)}>
+                                    noValidate="novalidate" onSubmit={this.onSubmit.bind(this)}>
                                 <li>
                                   <div className="dropdown-mega-content">
                                     <div className="p-none">

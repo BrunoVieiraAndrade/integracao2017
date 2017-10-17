@@ -25,6 +25,7 @@ class Content extends Component {
           <Route exact path={"/" + VISAO_GERAL_CATEGORIA} component={ VisaoGeral } />
           <Route exact path={"/" + CURSO_CATEGORIA} component={ Curso } />
           <Route exact path={"/" + DISCIPLINAS_CATEGORIA} component={ Disciplinas } />
+          <Route exact path={"/" + DISCIPLINAS_CATEGORIA + "#*"} component={ Disciplinas } />
           <Route exact path={"/" + DISCIPLINAS_CATEGORIA + "/:disciplinaId"} component={ Disciplina } />
           <Route exact path={"/:categoria/:topicoId"} component={ DefaultPageContent } />
         </div>

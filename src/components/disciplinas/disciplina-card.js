@@ -23,9 +23,9 @@ class DisciplinaCard extends Component {
         <Link to={this.state.url ? this.state.url : ''}>
 													<span className="thumb-info thumb-info-centered-info thumb-info-no-borders">
 														<span className="thumb-info-wrapper">
-															<img src="img/demos/hotel/room-1.jpg" className="img-responsive" alt="" />
+															<img src={`img/thumbs/` + this.state.categoriaId + `.jpg`} className="img-responsive" alt="" />
 															<span className="thumb-info-title">
-																<span className="thumb-info-inner">View Details</span>
+																<span className="thumb-info-inner">Ver Detalhes</span>
 															</span>
 														</span>
 													</span>

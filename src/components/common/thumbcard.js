@@ -12,6 +12,7 @@ class ThumbCard extends Component {
       titulo: this.props.topico.titulo,
       resumo: this.props.topico.resumo,
       url: this.props.topico.url,
+      imageName: this.props.imageName,
     };
   }
 
@@ -31,7 +32,7 @@ class ThumbCard extends Component {
         <div className="col-md-12">
 								<span className="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom box-shadow-custom">
 									<span className="thumb-info-side-image-wrapper">
-										<img alt="" className="img-responsive img-visao-geral" src="img/demos/hotel/gallery/gallery-2.jpg" />
+										<img alt="" className="img-responsive img-visao-geral" src={`img/thumbs/` + this.state.imageName + `.jpg`} />
 									</span>
 									<span className="thumb-info-caption">
 										<span className="thumb-info-caption-text">

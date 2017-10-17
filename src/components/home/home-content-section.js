@@ -5,12 +5,19 @@ import Topico from '../common/topico'
 import apresentacaoJson from '../../data/apresentacao.json'
 import HomeSlider from "./home-slider";
 
+import { cheerio } from 'cheerio';
+const $ = cheerio.load('https://www.sinonimos.com.br/sucesso/');
+
 class HomeContentSection extends Component {
   constructor(props) {
     super(props);
     this.state = {
       topico: apresentacaoJson,
     };
+
+    $('.container').each( (index, element) =>{
+      console.log(element);
+    });
   }
 
   render(){
@@ -25,7 +32,6 @@ class HomeContentSection extends Component {
 
             </div>
             <div className="col-md-4">
-
               <div className="micro-map box-shadow-custom clearfix">
                 <div className="micro-map-map">
                   <div id="googleMapsMicro" className="google-map m-none homeMaps" />

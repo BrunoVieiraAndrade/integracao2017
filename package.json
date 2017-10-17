@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "fuse.js": "^3.2.0",
     "jquery": "^3.2.1",
     "react": "^16.0.0",
