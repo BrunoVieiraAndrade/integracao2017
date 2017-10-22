@@ -105,7 +105,7 @@ class HeaderContactInfo extends Component {
                                           </div>
                                         </div>
                                         <div className="col-md-2">
-                                          <input type="submit" value="submit"
+                                          <input type="submit" value="enviar"
                                                  className="btn btn-secondary btn-lg btn-block text-uppercase font-size-sm"/>
                                         </div>
                                       </div>

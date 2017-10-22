@@ -1,9 +1,20 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import { withRouter } from 'react-router-dom';
 
 import PageHeader from '../common/page-header';
 import DefaultPageSection from "../common/default-page-section";
+import ThumbCard from '../common/thumbcard';
 
 import Fuse from 'fuse.js';
+
+import cursoJson from '../../data/ocurso.json';
+import visaoGeralJson from '../../data/VisaoGeral.json';
+
+import {
+  VISAO_GERAL_CATEGORIA,
+  CURSO_CATEGORIA,
+  DISCIPLINAS_CATEGORIA,
+} from '../../helpers/global.js'
 
 class SearchResults extends Component {
   constructor(props) {
@@ -11,211 +22,132 @@ class SearchResults extends Component {
 
     this.state = {
       searchTerm: this.props.match.params.searchTerm,
+      searchInputTerm: this.props.match.params.searchTerm,
+      results: [],
     };
+
+    console.log(this.state);
   }
 
+  componentDidMount(){
+    this.executeQuery();
+  }
 
+  executeQuery() {
+    if (this.state.searchInputTerm === undefined || this.state.searchInputTerm === '') { return (<div className="col-md-12"><h1>Nenhum resultado encontrado.</h1></div>)}
 
+    console.log('searchinput: ' + this.state.searchInputTerm);
 
-  executeQuery(){
     console.log("executing query");
     let options = {
       shouldSort: true,
-      threshold: 0.3,
+      threshold: 0.4,
       location: 0,
       distance: 100,
       maxPatternLength: 32,
-      minMatchCharLength: 1,
+      minMatchCharLength: 2,
       keys: [
-        "title",
+        "titulo",
+        "conteudo",
+        "subtopicos.titulo",
+        "subtopicos.conteudo",
+        "subtopicos.conteudo.nome",
+        "subtopicos.conteudo.ementa",
       ]
     };
 
-    let list =   [
-      {
-        title: "Old Man's War",
-        author: {
-          firstName: "John",
-          lastName: "Scalzi"
-        }
-      },
-      {
-        title: "The Lock Artist",
-        author: {
-          firstName: "Steve",
-          lastName: "Hamilton"
-        }
-      },
-      {
-        title: "HTML5",
-        author: {
-          firstName: "Remy",
-          lastName: "Sharp"
-        }
-      },
-      {
-        title: "Right Ho Jeeves",
-        author: {
-          firstName: "P.D",
-          lastName: "Woodhouse"
-        }
-      },
-      {
-        title: "The Code of the Wooster",
-        author: {
-          firstName: "P.D",
-          lastName: "Woodhouse"
-        }
-      },
-      {
-        title: "Thank You Jeeves",
-        author: {
-          firstName: "P.D",
-          lastName: "Woodhouse"
-        }
-      },
-      {
-        title: "The DaVinci Code",
-        author: {
-          firstName: "Dan",
-          lastName: "Brown"
-        }
-      },
-      {
-        title: "Angels & Demons",
-        author: {
-          firstName: "Dan",
-          lastName: "Brown"
-        }
-      },
-      {
-        title: "The Silmarillion",
-        author: {
-          firstName: "J.R.R",
-          lastName: "Tolkien"
-        }
-      },
-      {
-        title: "Syrup",
-        author: {
-          firstName: "Max",
-          lastName: "Barry"
-        }
-      },
-      {
-        title: "The Lost Symbol",
-        author: {
-          firstName: "Dan",
-          lastName: "Brown"
-        }
-      },
-      {
-        title: "The Book of Lies",
-        author: {
-          firstName: "Brad",
-          lastName: "Meltzer"
-        }
-      },
-      {
-        title: "Lamb",
-        author: {
-          firstName: "Christopher",
-          lastName: "Moore"
-        }
-      },
-      {
-        title: "Fool",
-        author: {
-          firstName: "Christopher",
-          lastName: "Moore"
-        }
-      },
-      {
-        title: "Incompetence",
-        author: {
-          firstName: "Rob",
-          lastName: "Grant"
-        }
-      },
-      {
-        title: "Fat",
-        author: {
-          firstName: "Rob",
-          lastName: "Grant"
-        }
-      },
-      {
-        title: "Colony",
-        author: {
-          firstName: "Rob",
-          lastName: "Grant"
-        }
-      },
-      {
-        title: "Backwards, Red Dwarf",
-        author: {
-          firstName: "Rob",
-          lastName: "Grant"
-        }
-      },
-      {
-        title: "The Grand Design",
-        author: {
-          firstName: "Stephen",
-          lastName: "Hawking"
-        }
-      },
-      {
-        title: "The Book of Samson",
-        author: {
-          firstName: "David",
-          lastName: "Maine"
-        }
-      },
-      {
-        title: "The Preservationist",
-        author: {
-          firstName: "David",
-          lastName: "Maine"
-        }
-      },
-      {
-        title: "Fallen",
-        author: {
-          firstName: "David",
-          lastName: "Maine"
-        }
-      },
-      {
-        title: "Monster 1959",
-        author: {
-          firstName: "David",
-          lastName: "Maine"
-        }
-      }
-    ];
+    let mappedCursoJson = cursoJson.map( (item) => {
+      item.categoria = CURSO_CATEGORIA;
+      return item;
+    });
 
+    let mappedVisaoGeralJson = visaoGeralJson.map( (item) => {
+      item.categoria = VISAO_GERAL_CATEGORIA;
+      return item;
+    });
+
+    var list = mappedCursoJson.concat(mappedVisaoGeralJson);
 
     let fuse = new Fuse(list, options); // "list" is the item array
-    let result = fuse.search(this.state.searchTerm);
+    let result = fuse.search(this.state.searchInputTerm);
 
-    result.map( (item) => {
-
-      console.log('title: ' + item.title)
-
+    result.forEach( (item) => {
+      console.log(item.titulo);
     });
+
+    this.setState({results: result});
+
   }
 
-  render(){
+  onSubmit(e) {
+    e.preventDefault();
+    this.props.history.push(`/q=` + this.state.searchInputTerm);
+  }
+
+  renderResults(){
+    let result = this.state.results;
+
+    if (result.length === 0){ return <div className="col-md-12"><h1>Não foi possível encontrar um resultado.</h1></div>}
+
+    console.log('result ' + result);
+    return (
+      result.map((item) => {
+        return (
+          <div className="col-md-12">
+            <ThumbCard topico={item} imageName={item.categoria}/>
+          </div>
+        );
+      })
+    )
+  }
+
+  render() {
     return (
       <div>
-        <PageHeader titulo="Resultados da busca" />
-        {this.executeQuery()}
-        {/*<DefaultPageSection topicos={this.state.topicos} />*/}
+        <PageHeader titulo="Resultados da busca"/>
+        <form id="bookForm" action="/'q="
+              method="GET"
+              noValidate="novalidate" onSubmit={this.onSubmit.bind(this)}>
+          <div className="row mt-xl">
+            <div className="col-md-12">
+              <section className="section section-tertiary section-no-border p-xlg mt-xs mb-xlg" data-plugin-sticky
+                       data-plugin-options="{'minWidth': 991, 'containerSelector': '.container', 'padding': {'top': 150}}">
+                <div className="row">
+                  <div className="col-md-10">
+                    <h4 className="mt-xl mb-lg pb-none text-uppercase">Busca</h4>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="form-group">
+                    <div className="col-md-10">
+                      <div className="form-control-custom">
+                        <input
+                          type="text"
+                          value={this.state.searchInputTerm}
+                          onChange={event => this.setState({searchInputTerm: event.target.value})}
+                          className="form-control font-size-sm"
+                          data-msg-required="This field is required."
+                          placeholder="Buscar"
+                          name="q"
+                          id="bookNowArrival"
+                          required/>
+                      </div>
+                    </div>
+                    <div className="col-md-2"><input type="submit" value="enviar"
+                                                     className="btn btn-secondary btn-lg btn-block text-uppercase font-size-sm"/>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+        </form>
+        {this.renderResults()}
       </div>
 
     );
   }
 }
 
-export default SearchResults;
+export default withRouter(SearchResults);

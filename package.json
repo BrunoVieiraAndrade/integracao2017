@@ -11,11 +11,12 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
-    "react-tap-event-plugin": "^3.0.2"
+    "react-tap-event-plugin": "^3.0.2",
+    "tinyreq": "^3.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cd build && copy index.html 200.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

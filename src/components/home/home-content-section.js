@@ -3,10 +3,9 @@ import './home.css';
 
 import Topico from '../common/topico'
 import apresentacaoJson from '../../data/apresentacao.json'
+import testJson from '../../data/test.json'
 import HomeSlider from "./home-slider";
 
-import { cheerio } from 'cheerio';
-const $ = cheerio.load('https://www.sinonimos.com.br/sucesso/');
 
 class HomeContentSection extends Component {
   constructor(props) {
@@ -14,10 +13,6 @@ class HomeContentSection extends Component {
     this.state = {
       topico: apresentacaoJson,
     };
-
-    $('.container').each( (index, element) =>{
-      console.log(element);
-    });
   }
 
   render(){

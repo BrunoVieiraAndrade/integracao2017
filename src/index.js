@@ -9,7 +9,7 @@ var injectTapEventPlugin = require("react-tap-event-plugin"); //eslint-disable i
 injectTapEventPlugin();
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter forceRefresh={true}>
       <App/>
   </BrowserRouter>,
   document.getElementById('root')
