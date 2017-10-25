@@ -20,7 +20,7 @@ class VisaoGeral extends Component {
     return (
       <div>
         <PageHeader titulo="Visão Geral" />
-        <DefaultPageSection topicos={this.state.topicos} />
+        <DefaultPageSection topicos={this.state.topicos} categoria='visao-geral' />
       </div>
 
     );

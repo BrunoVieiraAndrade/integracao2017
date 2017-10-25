@@ -18,7 +18,7 @@ class Curso extends Component {
     return (
       <div>
         <PageHeader titulo="O Curso" />
-        <DefaultPageSection topicos={this.state.topicos} />
+        <DefaultPageSection topicos={this.state.topicos} categoria='o-curso' />
       </div>
 
     );

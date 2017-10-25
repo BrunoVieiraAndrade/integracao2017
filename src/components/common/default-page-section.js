@@ -8,7 +8,8 @@ class DefaultPageSection extends Component {
     super(props);
 
     this.state = {
-      topicos: this.props.topicos
+      topicos: this.props.topicos,
+      categoria: this.props.categoria
     };
   }
 
@@ -18,7 +19,7 @@ class DefaultPageSection extends Component {
       return (
         topicos.map( (topico) => {
           return (
-            <ThumbCard topico={topico} key={topico.titulo} />
+            <ThumbCard topico={topico} key={topico.titulo} imageName={this.state.categoria} />
           );
         })
       );

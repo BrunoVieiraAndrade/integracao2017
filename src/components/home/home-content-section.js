@@ -3,7 +3,9 @@ import './home.css';
 
 import Topico from '../common/topico'
 import apresentacaoJson from '../../data/apresentacao.json'
+import testJson from '../../data/test.json'
 import HomeSlider from "./home-slider";
+
 
 class HomeContentSection extends Component {
   constructor(props) {
@@ -25,7 +27,6 @@ class HomeContentSection extends Component {
 
             </div>
             <div className="col-md-4">
-
               <div className="micro-map box-shadow-custom clearfix">
                 <div className="micro-map-map">
                   <div id="googleMapsMicro" className="google-map m-none homeMaps" />
