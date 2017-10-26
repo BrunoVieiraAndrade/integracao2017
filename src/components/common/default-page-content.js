@@ -60,7 +60,7 @@ class DefaultPageContent extends Component {
   render(){
     if(!this.state.topico){
       return (
-        <div>{this.state.topicoId}</div>
+        <div></div>
       );
     }
 

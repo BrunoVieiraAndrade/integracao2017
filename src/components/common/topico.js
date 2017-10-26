@@ -18,7 +18,7 @@ class Topico extends Component {
     if(conteudo){
       return(
         this.state.topico.conteudo.split('\n').map((item, key) => {
-          return <p className="mt-lg">{item}</p>
+          return <p className="mt-lg" key={key}>{item}</p>
         })
       );
     }

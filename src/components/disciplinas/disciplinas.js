@@ -18,11 +18,6 @@ class Disciplinas extends Component {
     };
 
     this.renderDisciplinas(this.state.disciplinas);
-
-    if(!window.location.hash) {
-      window.location = window.location + '#*';
-      window.location.reload();
-    }
   }
 
 

@@ -10,9 +10,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
-          <HeaderNav menu={[{ name:'Home', url: '/', index: 'home' }, { name:'Visão Geral', url: '/visao-geral' }, { name:'O Curso', url: '/curso' }, { name:'Disciplinas', url: '/disciplinas' }]} />
-      </div>
+      <HeaderNav menu={[{ name:'Home', url: '/', index: 'home' }, { name:'Visão Geral', url: '/visao-geral' }, { name:'O Curso', url: '/curso' }, { name:'Disciplinas', url: '/disciplinas' }]} />
     );
   }
 }
