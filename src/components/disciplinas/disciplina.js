@@ -107,6 +107,10 @@ class Disciplina extends Component {
 
               {this.state.disciplina.conteudo.condicoesMinimas ? this.renderCondicoesMinimas(this.state.disciplina.conteudo.condicoesMinimas) : '' }
 
+              {this.state.disciplina.conteudo.bibliografia.bibliografia_basica ? this.renderBibliografiaBasica(this.state.disciplina.conteudo.bibliografia.bibliografia_basica) : '' }
+
+              {this.state.disciplina.conteudo.bibliografia.bibliografia_complementar ? this.renderBibliografiaComplementar(this.state.disciplina.conteudo.bibliografia.bibliografia_complementar) : '' }
+
             </div>
           </div>
         </section>
@@ -131,6 +135,48 @@ class Disciplina extends Component {
       <div className="col-md-12">
 
         <h3 className="mt-xlg pt-xlg mb-none pb-none text-uppercase">Condições mínimas</h3>
+        <div className="divider divider-primary divider-small mb-xl mt-none">
+          <hr className="mt-sm"/>
+        </div>
+
+        <div className="row">
+          <div className="col-md-12">
+
+            <ListaNaoOrdenada items={items} />
+
+          </div>
+        </div>
+
+      </div>
+    )
+  }
+
+  renderBibliografiaBasica(items){
+    return (
+      <div className="col-md-12">
+
+        <h3 className="mt-xlg pt-xlg mb-none pb-none text-uppercase">Bibliografia básica</h3>
+        <div className="divider divider-primary divider-small mb-xl mt-none">
+          <hr className="mt-sm"/>
+        </div>
+
+        <div className="row">
+          <div className="col-md-12">
+
+            <ListaNaoOrdenada items={items} />
+
+          </div>
+        </div>
+
+      </div>
+    )
+  }
+
+  renderBibliografiaComplementar(items){
+    return (
+      <div className="col-md-12">
+
+        <h3 className="mt-xlg pt-xlg mb-none pb-none text-uppercase">Bibliografia complementar</h3>
         <div className="divider divider-primary divider-small mb-xl mt-none">
           <hr className="mt-sm"/>
         </div>
