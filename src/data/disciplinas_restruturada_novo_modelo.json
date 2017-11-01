@@ -46,7 +46,6 @@
                             "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005."
                         ]
                     }
-                    ]
 
                 }
             },
@@ -91,9 +90,6 @@
                             "CORMEN, T. H et al., Algoritmos: Teoria e Prática. 2.ª edição. Rio de Janeiro: Editora Campus, 2002."
                         ]
                     }
-
-                    ]
-
                 }
             },
             {
@@ -135,9 +131,6 @@
                             "SIMMONS, G. F. Cálculo com Geometria Analítica, vol.1. McGraw-Hill do Brasil, São Paulo, Brasil, 1987."
                         ]
                     }
-
-                    ]
-
                 }
             },
             {
@@ -178,9 +171,6 @@
                             "SANTOS, J. P. O. Introdução à Teoria dos Números, Coleção Matemática Universitária, CNPQ-IMPA, Rio de Janeiro, 2003."
                         ]
                     }
-
-                    ]
-
                 }
             },
             {
@@ -227,8 +217,6 @@
                             "WEBER, R. F. Fundamentos de Arquiteturas de Computadores, 2.ª Edição, Editora Sagra-Luzzatto, 2001."
                         ]
                     }
-
-                    ]
                 }
             },
             {
@@ -259,7 +247,7 @@
                     ],
                     "bibliografia": {
                         "bibliografia_basica": [
-                            "FEOFILOFF, 	P. Algoritmos em Linguagem C. 	Editora Campus/Elsevier, 2009.",
+                            "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009.",
                             "SZWARCFITER, J. L.; MARKENZON, L. Estruturas de Dados e seus Algoritmos. 2ª edição, L TC, 1994.",
                             "TENENBAUM, A. M.; LANGSAM, Y.; AUGENSTEIN, M. Estruturas de Dados Usando C, São Paulo, Makron Books, 1995."
                         ],
@@ -271,8 +259,6 @@
                             "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006."
                         ]
                     }
-                    ]
-
                 }
             },
             {
@@ -318,7 +304,6 @@
                             "TRIOLA, M. F. Introdução à Estatística. 10. ed. Rio de Janeiro: LTC, 2008."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -358,7 +343,6 @@
                             "SHOKRANIAN, S. Introdução à Álgebra Linear e Aplicações, 1 ed. UNB, 2004."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -399,7 +383,6 @@
                             "CASANOVA, M. A.; GIORNO, F. A. C.; FURTADO, A. L. Programação em Lógica e a Linguagem PROLOG. Edgard Blucher, 1987."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -441,7 +424,6 @@
                             "ZEIGLER, B. P. Objects and Systerns: Principled Design with Implementations in C++ andJava. Springer-Verlag NewYork, Inc., New York, NY, USA. 1997."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -483,8 +465,6 @@
                             "ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006."
                         ]
                     }
-
-                    ]
                 }
             },
             {
@@ -525,8 +505,6 @@
                             "VAREJÃO, F. Linguagens de Programação, r.a Edição, Editora. Campus, 2004."
                         ]
                     }
-                    ]
-
                 }
             },
             {
@@ -575,7 +553,6 @@
                             "Disponível em https://www.computer.org/web/peb/swecom."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -618,7 +595,6 @@
                             "SZWARCFITER, J. L.; MARKENZON, L. Estrutura de Dados e seus Algoritmos. 3.ª edição, LTC Editora, 2010. ISBN 978852161750."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -666,8 +642,6 @@
                             "SCOTT, B.; NEIL, T. Designing Web Interfaces: Principles and Patterns for Rich Interactions. O'Reilly Media; 1st edition. 2009."
                         ]
                     }
-                    ]
-
                 }
             },
             {
@@ -710,7 +684,6 @@
                             "TEOREY, T.; LIGHTSTONE, S.; NADEAU, T. Projeto e Modelagem de Bancos de Dados, Editora Campus, Rio de Janeiro, 2007."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -755,7 +728,6 @@
                             "NYGARD, M. Release It!: Design and Deploy Production-Ready Software, Pragmatic Bookshelf, 2007."
                         ]
                     }
-                    ]
                 }
             }
         ]
@@ -1666,7 +1638,6 @@
                             "SHAY, W. Sistemas Operacionais, Makron Books, 1996."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -1707,7 +1678,6 @@
                             "WINSTON, W. L. Operations research applications and algorithms. 3rd ed. Duxbury Press, 1997."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -1747,7 +1717,6 @@
                             "ROSEN, K. H. Matemática discreta e suas aplicações. 6.ª ed. Rio de Janeiro: McGraw Hill, 2009."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -1790,7 +1759,6 @@
                             "TORRES, G. Redes de computadores: curso completo. Axcel Books, 2001."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -1829,7 +1797,6 @@
                             "QUADROS, R. M.; KARNOPP, L. Língua de sinais brasileira: estudos linguísticos. ARTMED: Porto Alegre, 2004."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -1874,7 +1841,6 @@
                             "LEBLANC, R. J.; FISCHER, C. N. Crafting a Compiler with C. Benjamin/Cummings, 1991."
                         ]
                     }
-                    ]
                 }
             },
             {
@@ -1916,7 +1882,6 @@
                             "TANENBAUM, A.S.; STEEN, M. van. Distributed Systems: Principles and Paradigms. Prentice Hall, 2nd Edition, 2006."
                         ]
                     }
-                    ]
                 }
             },
             {

@@ -9,6 +9,7 @@ import Fuse from 'fuse.js';
 
 import cursoJson from '../../data/ocurso.json';
 import visaoGeralJson from '../../data/VisaoGeral.json';
+import sinonimosJson from '../../data/cacheBusca.json';
 
 import {
   VISAO_GERAL_CATEGORIA,
@@ -66,16 +67,32 @@ class SearchResults extends Component {
       return item;
     });
 
-    var list = mappedCursoJson.concat(mappedVisaoGeralJson);
+    let list = mappedCursoJson.concat(mappedVisaoGeralJson);
 
     let fuse = new Fuse(list, options); // "list" is the item array
     let result = fuse.search(this.state.searchInputTerm);
 
-    result.forEach( (item) => {
-      console.log(item.titulo);
+    // Select all words from the search
+    let words = this.state.searchInputTerm.split(" ");
+    let synonyms = [];
+    // Get synonyms from each word
+    words.forEach( (word) => {
+      if (word.length > 3){
+        if (sinonimosJson[word]){
+          synonyms = synonyms.concat(sinonimosJson[word].sinonimos);
+        }
+      }
     });
 
-    this.setState({results: result});
+    // Do the search for each synonym
+    synonyms.forEach( (synonym) => {
+      result = result.concat(fuse.search(synonym));
+    });
+
+    // Remove duplicates from result
+    let cleanResult = Array.from(new Set(result));
+
+    this.setState({results: cleanResult});
 
   }
 

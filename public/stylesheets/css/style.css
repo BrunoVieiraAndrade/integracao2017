@@ -3,6 +3,10 @@ body {
     background:rgb(249, 250, 254);
 }
 
+body p {
+    color: #555;
+}
+
 #main-container {
     margin: 0;
     width: inherit;
