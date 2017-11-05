@@ -8,6 +8,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Computação e Sociedade",
                 "url": "/disciplinas/computacao_e_sociedade",
+				"resumo": "Computação e sociedade é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D1",
                     "nome": "Computação e Sociedade",
@@ -54,6 +55,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Introdução à Programação",
                 "url": "/disciplinas/introducacao_a_programacao",
+				"resumo": "Introdução a programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D2",
                     "nome": "Introdução à Programação",
@@ -97,6 +99,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Cálculo 1A",
                 "url": "/disciplinas/calculo_1a",
+				"resumo": "Cálculo 1A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D3",
                     "nome": "Cálculo lA",
@@ -138,6 +141,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Fundamentos de Matemática para Computação",
                 "url": "/disciplinas/fundamentos_de_matematica_para_computacao",
+				"resumo": "Fundamentos de matemática para computação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D4",
                     "nome": "Fundamentos de Matemática para Computação",
@@ -178,6 +182,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Arquitetura de Computadores",
                 "url": "/disciplinas/arquitetura_de_computadores",
+				"resumo": "Arquitetura de computadores é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D5",
                     "nome": "Arquitetura de Computadores",
@@ -224,6 +229,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Algoritmos e Estruturas de Dados 1",
                 "url": "/disciplinas/algoritmos_e_estrutura_de_dados_1",
+				"resumo": "Algoritmos e estrutura de dados 1 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D6",
                     "nome": "Algoritmos e Estruturas de Dados 1",
@@ -266,6 +272,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Probabilidade e Estatística A",
                 "url": "/disciplinas/probabilidade_e_estatistica_a",
+				"resumo": "Probabilidade e estatística A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D7",
                     "nome": "Probabilidade e Estatística A",
@@ -311,6 +318,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Álgebra Linear",
                 "url": "/disciplinas/algebra_linear",
+				"resumo": "Algebra linear é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D8",
                     "nome": "Álgebra Linear",
@@ -350,6 +358,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Lógica Matemática",
                 "url": "/disciplinas/logica_matematica",
+				"resumo": "Lógica matemática é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D9",
                     "nome": "Lógica Matemática",
@@ -390,6 +399,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Programação Orientada a Objetos",
                 "url": "/disciplinas/programacao_orientada_a_objetos",
+				"resumo": "Programação orientada a objetos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D10",
                     "nome": "Programação Orientada a Objetos",
@@ -431,6 +441,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Algoritmos e Estruturas de Dados 2",
                 "url": "/disciplinas/algoritmos_e_estruturas_de_dados_2",
+				"resumo": "Algoritmos e estrutura de dados 2 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D11",
                     "nome": "Algoritmos e Estruturas de Dados 2",
@@ -472,6 +483,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Linguagens e Paradigmas de Programação",
                 "url": "/disciplinas/linguagens_e_paradigmas_de_programacao",
+				"resumo": "Linguagens e paradigmas de programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D12",
                     "nome": "Linguagens e Paradigmas de Programação",
@@ -512,6 +524,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Engenharia de Software",
                 "url": "/disciplinas/engenharia_de_software",
+				"resumo": "Engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D13",
                     "nome": "Engenharia de Software",
@@ -560,6 +573,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Análise e Projeto de Algoritmos",
                 "url": "/disciplinas/analise_e_projeto_de_algoritmos",
+				"resumo": "Análise e projeto de algoritmos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D14",
                     "nome": "Análise e Projeto de Algoritmos",
@@ -602,6 +616,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Interação Humano-Computador",
                 "url": "/disciplinas/interacao_humano_computador",
+				"resumo": "Integração humano computador é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D15",
                     "nome": "Interação Humano-Computador",
@@ -649,6 +664,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Banco de Dados",
                 "url": "/disciplinas/banco_de_dados",
+				"resumo": "Banco de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D16",
                     "nome": "Banco de Dados",
@@ -691,6 +707,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Projeto de Software",
                 "url": "/disciplinas/projeto_de_software",
+				"resumo": "Projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D17",
                     "nome": "Projeto de Software",
@@ -742,6 +759,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Construção de Software",
                 "url": "/disciplinas/construcao_de_software",
+				"resumo": "Construção de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D18",
                     "nome": "Construção de Software",
@@ -797,6 +815,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Modelagem de Software",
                 "url": "/disciplinas/modelagem_de_software",
+				"resumo": "Modelagem de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D19",
                     "nome": "Modelagem de Software",
@@ -840,6 +859,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Processos de Software",
                 "url": "/disciplinas/processos_de_software",
+				"resumo": "Processos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D20",
                     "nome": "Processos de Software",
@@ -884,6 +904,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Engenharia de Sistemas",
                 "url": "/disciplinas/engenharia_de_sistemas",
+				"resumo": "Engenharia de sistemas é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D21",
                     "nome": "Engenharia de Sistemas",
@@ -927,6 +948,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Design de Software",
                 "url": "/disciplinas/design_de_software",
+				"resumo": "Design de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D22",
                     "nome": "Design de Software",
@@ -979,6 +1001,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Domínios de Software",
                 "url": "/disciplinas/dominios_de_software",
+				"resumo": "Domínios de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D23",
                     "nome": "Domínios de Software",
@@ -1027,6 +1050,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Processos de Qualidade de Software",
                 "url": "/disciplinas/processos_de_qualidade_de_software",
+				"resumo": "Processos de qualidade de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D24",
                     "nome": "Processos de Qualidade de Software",
@@ -1075,6 +1099,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Gerência de Projeto de Software",
                 "url": "/disciplinas/gerencia_de_projeto_de_software",
+				"resumo": "Gerência de projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D25",
                     "nome": "Gerência de Projeto de Software",
@@ -1119,6 +1144,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Software Concorrente e Distribuído",
                 "url": "/disciplinas/software_concorrente_e_distribuido",
+				"resumo": "Software concorrente e distribuido é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D26",
                     "nome": "Software Concorrente e Distribuído",
@@ -1171,6 +1197,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Experiência do Usuário de Software",
                 "url": "/disciplinas/experiencia_do_usuario_de_software",
+				"resumo": "Experiência do usuário de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D27",
                     "nome": "Experiência do Usuário de Software",
@@ -1223,6 +1250,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Arquitetura de Software",
                 "url": "/disciplinas/arquitetura_de_software",
+				"resumo": "Arquitetura de Software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D28",
                     "nome": "Arquitetura de Software",
@@ -1270,6 +1298,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Requisitos de Software",
                 "url": "/disciplinas/requisitos_de_software",
+				"resumo": "Requisitos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D29",
                     "nome": "Requisitos de Software",
@@ -1318,6 +1347,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Governança e Gestão de Serviços de Software",
                 "url": "/disciplinas/governanca_e_gestao_de_servicos_de_software",
+				"resumo": "Governança e gestão de serviços de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D30",
                     "nome": "Governança e Gestão de Serviços de Software",
@@ -1366,6 +1396,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Software para Sistemas Ubíquos",
                 "url": "/disciplinas/software_para_sistemas_ubiquos",
+				"resumo": "Software para sistemas ubíquos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D31",
                     "nome": "Software para Sistemas Ubíquos",
@@ -1417,6 +1448,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Software para Persistência de Dados",
                 "url": "/disciplinas/software_para_persistencia_de_dados",
+				"resumo": "Software para persistência de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D32",
                     "nome": "Software para Persistência de Dados",
@@ -1464,6 +1496,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Padrões de Arquitetura de Software",
                 "url": "/disciplinas/padroes_de_arquitetura_de_software",
+				"resumo": "Padrões de arquitetura de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D33",
                     "nome": "Padrões de Arquitetura de Software",
@@ -1509,6 +1542,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Teste de Software",
                 "url": "/disciplinas/teste_de_software",
+				"resumo": "Teste de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D34",
                     "nome": "Teste de Software",
@@ -1559,6 +1593,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Prática em Engenharia de Software",
                 "url": "/disciplinas/pratica_em_engenharia_de_software",
+				"resumo": "Prática em engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D35",
                     "nome": "Prática em Engenharia de Software",
@@ -1606,6 +1641,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Operacionais",
                 "url": "/disciplinas/sistemas_operacionais",
+				"resumo": "Sistemas operacionais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D36",
                     "nome": "Sistemas Operacionais",
@@ -1645,6 +1681,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Pesquisa Operacional",
                 "url": "/disciplinas/pesquisa_operacional",
+				"resumo": "Pesquisa operacional é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D37",
                     "nome": "Pesquisa Operacional",
@@ -1685,6 +1722,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Linguagens Formais e Autômatos",
                 "url": "/disciplinas/linguagens_formais_e_automatos",
+				"resumo": "Linguagens formais e autômatos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D38",
                     "nome": "Linguagens Formais e Autômatos",
@@ -1724,6 +1762,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Redes de computadores",
                 "url": "/disciplinas/redes_de_computadores",
+				"resumo": "Redes de computadores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D39",
                     "nome": "Redes de computadores",
@@ -1766,6 +1805,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Introdução à Língua Brasileira de Sinais",
                 "url": "/disciplinas/introducao_a_lingua_brasileira_de_sinais",
+				"resumo": "Introdução a língua brasileira de sinais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D40",
                     "nome": "Introdução à Língua Brasileira de Sinais",
@@ -1804,6 +1844,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Compiladores",
                 "url": "/disciplinas/compiladores",
+				"resumo": "Compiladores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D41",
                     "nome": "Compiladores",
@@ -1848,6 +1889,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Distribuídos",
                 "url": "/disciplinas/sistemas_distribuidos",
+				"resumo": "Sistemas distribuidos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D42",
                     "nome": "Sistemas Distribuídos",
@@ -1889,6 +1931,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Metodologia e Experimentação em Engenharia de Software",
                 "url": "/disciplinas/metodologia_e_experimentacao_em_engenharia_de_software",
+				"resumo": "Metodologia e experimentação em engenharia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D43",
                     "nome": "Metodologia e Experimentação em Engenharia de Software",
@@ -1930,6 +1973,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Mercado e Economia de Software",
                 "url": "/disciplinas/mercado_e_economia_de_software",
+				"resumo": "Mercado e economia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D44",
                     "nome": "Mercado e Economia de Software",
