@@ -10,6 +10,7 @@ import Fuse from 'fuse.js';
 import cursoJson from '../../data/ocurso.json';
 import visaoGeralJson from '../../data/VisaoGeral.json';
 import sinonimosJson from '../../data/cacheBusca.json';
+import disciplinasJson from '../../data/disciplinas_restruturada_novo_modelo.json';
 
 import {
   VISAO_GERAL_CATEGORIA,
@@ -50,10 +51,8 @@ class SearchResults extends Component {
       keys: [
         "titulo",
         "conteudo",
-        "subtopicos.titulo",
-        "subtopicos.conteudo",
-        "subtopicos.conteudo.nome",
-        "subtopicos.conteudo.ementa",
+        "conteudo.nome",
+        "conteudo.ementa",
       ]
     };
 
@@ -67,7 +66,26 @@ class SearchResults extends Component {
       return item;
     });
 
+    let mappedDisciplinasJson = [];
+
+    disciplinasJson.forEach( (categoriaDeDisciplina) => {
+      let mappedSubtopicos = categoriaDeDisciplina.subtopicos.map( (disciplina) => {
+        disciplina.categoria = DISCIPLINAS_CATEGORIA;
+        return disciplina;
+      });
+
+      mappedDisciplinasJson = mappedDisciplinasJson.concat(mappedSubtopicos);
+
+      console.log(mappedDisciplinasJson);
+    });
+
+
+
     let list = mappedCursoJson.concat(mappedVisaoGeralJson);
+    list = list.concat(mappedDisciplinasJson);
+
+
+
 
     let fuse = new Fuse(list, options); // "list" is the item array
     let result = fuse.search(this.state.searchInputTerm);
