@@ -1,1 +1,4 @@
 /* Add here all your CSS customizations */
+nav li:focus {
+    background-color: #BA9459;
+}

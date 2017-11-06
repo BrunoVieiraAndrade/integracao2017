@@ -12,7 +12,7 @@ class HomeSlider extends Component {
 
     return (
       <div className="slider-container rev_slider_wrapper" style={{ height: 530 }}>
-        <img src="img/slides/home-banner.jpg" />
+        <img src="img/slides/home-banner.jpg" alt="Banner da Página Inicial" />
       </div>
     );
   }

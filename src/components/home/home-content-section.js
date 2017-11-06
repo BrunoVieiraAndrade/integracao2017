@@ -36,7 +36,7 @@ class HomeContentSection extends Component {
                     <i className="icon-location-pin icons text-color-primary" />
                     <label>ENDEREÇO</label>
                     <strong>Alameda Palmeiras s/n - C. Samambaia, Goiânia - GO</strong>
-                    <a href="demo-hotel-location.html" title="">(View Location)</a>
+                    <a href="#" title="">(View Location)</a>
                   </div>
                   <div className="micro-map-info-detail">
                     <i className="icon-phone icons text-color-primary" />

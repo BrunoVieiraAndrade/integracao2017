@@ -33,7 +33,7 @@ class HeaderContactInfo extends Component {
   renderListItem() {
     let numbers = this.props.menu;
     let listItems = numbers.map((item, index) =>
-      <li className={this.state.index === index ? "active" : ""} onClick={this.onclick.bind(this, index)} key={index}>
+      <li className={this.state.index === index ? "active" : ""} onClick={this.onclick.bind(this, index)} key={index} tabIndex={index+1}>
         <Link to={item.url}>
           {item.name}
         </Link>
@@ -71,11 +71,11 @@ class HeaderContactInfo extends Component {
                     <div
                       className="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
                       <nav>
-                        <ul className="nav nav-pills" id="mainNav">
+                        <ul className="nav nav-pills" id="mainNav" >
                           {this.renderListItem()}
 
 
-                          <li className="dropdown dropdown-quaternary dropdown-mega" id="headerSearchProperties">
+                          <li className="dropdown dropdown-quaternary dropdown-mega" id="headerSearchProperties" tabIndex={5}>
                             <a className="dropdown-toggle" href="#">
                               Busca&nbsp;&nbsp; <i className="fa fa-search"/>
                               <i className="fa fa-caret-down"/></a>
