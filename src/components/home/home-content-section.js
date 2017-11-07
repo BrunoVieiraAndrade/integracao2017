@@ -3,7 +3,6 @@ import './home.css';
 
 import Topico from '../common/topico'
 import apresentacaoJson from '../../data/apresentacao.json'
-import testJson from '../../data/test.json'
 import HomeSlider from "./home-slider";
 
 

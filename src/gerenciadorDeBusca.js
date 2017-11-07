@@ -30,7 +30,7 @@ var resultadoJson = busca();
       </Col>
     );
   }
-  */
+  
 }
 
 export default Busca;
