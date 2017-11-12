@@ -10,7 +10,7 @@
                 "url": "/disciplinas/computacao_e_sociedade",
 				"resumo": "Computação e sociedade é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D1",
+                    "id": "computacao_e_sociedade",
                     "nome": "Computação e Sociedade",
                     "nucleo": "NC",
                     "teo": 32,
@@ -19,7 +19,6 @@
                     "periodo": "1°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "História da computação.",
                         "Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.",
@@ -57,7 +56,7 @@
                 "url": "/disciplinas/introducacao_a_programacao",
 				"resumo": "Introdução a programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D2",
+                    "id": "introducacao_a_programacao",
                     "nome": "Introdução à Programação",
                     "nucleo": "NC",
                     "teo": 48,
@@ -66,7 +65,6 @@
                     "periodo": "1°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Introdução a algoritmos.",
                         "Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.",
@@ -101,7 +99,7 @@
                 "url": "/disciplinas/calculo_1a",
 				"resumo": "Cálculo 1A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D3",
+                    "id": "calculo_1a",
                     "nome": "Cálculo lA",
                     "nucleo": "NC",
                     "teo": 96,
@@ -110,7 +108,6 @@
                     "periodo": "1°",
                     "unidade": "IME",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Números reais. Funções reais de uma variável real e suas inversas.",
                         "Noções sobre cônicas.",
@@ -143,7 +140,7 @@
                 "url": "/disciplinas/fundamentos_de_matematica_para_computacao",
 				"resumo": "Fundamentos de matemática para computação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D4",
+                    "id": "fundamentos_de_matematica_para_computacao",
                     "nome": "Fundamentos de Matemática para Computação",
                     "nucleo": "NC",
                     "teo": 64,
@@ -152,7 +149,6 @@
                     "periodo": "1°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Noções de lógica.",
                         "Introdução a demonstrações",
@@ -184,7 +180,7 @@
                 "url": "/disciplinas/arquitetura_de_computadores",
 				"resumo": "Arquitetura de computadores é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D5",
+                    "id": "arquitetura_de_computadores",
                     "nome": "Arquitetura de Computadores",
                     "nucleo": "NC",
                     "teo": 48,
@@ -194,7 +190,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D4"
+                        "fundamentos_de_matematica_para_computacao"
                     ],
                     "ementa": [
                         "Visão geral dos computadores modernos.",
@@ -231,7 +227,7 @@
                 "url": "/disciplinas/algoritmos_e_estrutura_de_dados_1",
 				"resumo": "Algoritmos e estrutura de dados 1 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D6",
+                    "id": "introducacao_a_programacao",
                     "nome": "Algoritmos e Estruturas de Dados 1",
                     "nucleo": "NC",
                     "teo": 32,
@@ -241,7 +237,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D2"
+                        "introducacao_a_programacao"
                     ],
                     "ementa": [
                         "Noções de complexidade de algoritmos (notações de complexidade).",
@@ -274,7 +270,7 @@
                 "url": "/disciplinas/probabilidade_e_estatistica_a",
 				"resumo": "Probabilidade e estatística A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D7",
+                    "id": "probabilidade_e_estatistica_a",
                     "nome": "Probabilidade e Estatística A",
                     "nucleo": "NC",
                     "teo": 64,
@@ -284,7 +280,7 @@
                     "unidade": "IME",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D3"
+                        "calculo_1a"
                     ],
                     "ementa": [
                         "Estatística descritiva. Noções sobre amostragem.",
@@ -320,7 +316,7 @@
                 "url": "/disciplinas/algebra_linear",
 				"resumo": "Algebra linear é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D8",
+                    "id": "algebra_linear",
                     "nome": "Álgebra Linear",
                     "nucleo": "NC",
                     "teo": 64,
@@ -329,7 +325,6 @@
                     "periodo": "2°",
                     "unidade": "IME",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Sistemas lineares e matrizes.",
                         "Espaços vetoriais.",
@@ -360,7 +355,7 @@
                 "url": "/disciplinas/logica_matematica",
 				"resumo": "Lógica matemática é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D9",
+                    "id": "logica_matematica",
                     "nome": "Lógica Matemática",
                     "nucleo": "NC",
                     "teo": 64,
@@ -370,7 +365,7 @@
                     "unidade": "IME",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D4"
+                        "fundamentos_de_matematica_para_computacao"
                     ],
                     "ementa": [
                         "Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);",
@@ -401,7 +396,7 @@
                 "url": "/disciplinas/programacao_orientada_a_objetos",
 				"resumo": "Programação orientada a objetos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D10",
+                    "id": "programacao_orientada_a_objetos",
                     "nome": "Programação Orientada a Objetos",
                     "nucleo": "NC",
                     "teo": 32,
@@ -411,7 +406,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D2"
+                        "introducacao_a_programacao"
                     ],
                     "ementa": [
                         "Abstração e tipos abstratos de dados.",
@@ -443,7 +438,7 @@
                 "url": "/disciplinas/algoritmos_e_estruturas_de_dados_2",
 				"resumo": "Algoritmos e estrutura de dados 2 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D11",
+                    "id": "algoritmos_e_estruturas_de_dados_2",
                     "nome": "Algoritmos e Estruturas de Dados 2",
                     "nucleo": "NC",
                     "teo": 64,
@@ -453,7 +448,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D6"
+                        "introducacao_a_programacao"
                     ],
                     "ementa": [
                         "Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).",
@@ -485,7 +480,7 @@
                 "url": "/disciplinas/linguagens_e_paradigmas_de_programacao",
 				"resumo": "Linguagens e paradigmas de programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D12",
+                    "id": "linguagens_e_paradigmas_de_programacao",
                     "nome": "Linguagens e Paradigmas de Programação",
                     "nucleo": "NC",
                     "teo": 32,
@@ -495,7 +490,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D2"
+                        "introducacao_a_programacao"
                     ],
                     "ementa": [
                         "Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.",
@@ -526,7 +521,7 @@
                 "url": "/disciplinas/engenharia_de_software",
 				"resumo": "Engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D13",
+                    "id": "engenharia_de_software",
                     "nome": "Engenharia de Software",
                     "nucleo": "NC",
                     "teo": 64,
@@ -535,7 +530,6 @@
                     "periodo": "3°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Requisitos de software.",
                         "Projeto (design) de software.",
@@ -575,7 +569,7 @@
                 "url": "/disciplinas/analise_e_projeto_de_algoritmos",
 				"resumo": "Análise e projeto de algoritmos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D14",
+                    "id": "analise_e_projeto_de_algoritmos",
                     "nome": "Análise e Projeto de Algoritmos",
                     "nucleo": "NC",
                     "teo": 64,
@@ -585,8 +579,8 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D4",
-                        "D11"
+                        "fundamentos_de_matematica_para_computacao",
+                        "algoritmos_e_estruturas_de_dados_2"
                     ],
                     "ementa": [
                         "Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.",
@@ -618,7 +612,7 @@
                 "url": "/disciplinas/interacao_humano_computador",
 				"resumo": "Integração humano computador é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D15",
+                    "id": "interacao_humano_computador",
                     "nome": "Interação Humano-Computador",
                     "nucleo": "NC",
                     "teo": 32,
@@ -628,8 +622,8 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D6",
-                        "D7"
+                        "introducacao_a_programacao",
+                        "probabilidade_e_estatistica_a"
                     ],
                     "ementa": [
                         "Aspectos gerais sobre interação humano-computador.",
@@ -666,7 +660,7 @@
                 "url": "/disciplinas/banco_de_dados",
 				"resumo": "Banco de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D16",
+                    "id": "banco_de_dados",
                     "nome": "Banco de Dados",
                     "nucleo": "NC",
                     "teo": 48,
@@ -676,7 +670,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D9"
+                        "logica_matematica"
                     ],
                     "ementa": [
                         "Conceitos básicos de Banco de Dados.",
@@ -709,7 +703,7 @@
                 "url": "/disciplinas/projeto_de_software",
 				"resumo": "Projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D17",
+                    "id": "projeto_de_software",
                     "nome": "Projeto de Software",
                     "nucleo": "NC",
                     "teo": 64,
@@ -719,8 +713,8 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [
-                        "D10",
-                        "D13"
+                        "programacao_orientada_a_objetos",
+                        "engenharia_de_software"
                     ],
                     "ementa": [
                         "Fundamentos de design de software.",
@@ -761,7 +755,7 @@
                 "url": "/disciplinas/construcao_de_software",
 				"resumo": "Construção de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D18",
+                    "id": "construcao_de_software",
                     "nome": "Construção de Software",
                     "nucleo": "NC",
                     "teo": 48,
@@ -770,7 +764,6 @@
                     "periodo": "5°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Visão geral (4h): construção (minimizar complexidade, antecipação de mudança, verificação, padrões), projeto de software (sofware design), qualidade de produto.",
                         "Planejamento (8h): linguagens de programação e processos de construção.",
@@ -817,7 +810,7 @@
                 "url": "/disciplinas/modelagem_de_software",
 				"resumo": "Modelagem de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D19",
+                    "id": "modelagem_de_software",
                     "nome": "Modelagem de Software",
                     "nucleo": "NC",
                     "teo": 16,
@@ -826,7 +819,6 @@
                     "periodo": "5°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software.",
                         "Processo de projeto de software (4h).",
@@ -861,7 +853,7 @@
                 "url": "/disciplinas/processos_de_software",
 				"resumo": "Processos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D20",
+                    "id": "processos_de_software",
                     "nome": "Processos de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -870,7 +862,6 @@
                     "preiodo": "5°",
                     "enidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Visão geral (8h): processo, método e modelo.",
                         "Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h).",
@@ -906,7 +897,7 @@
                 "url": "/disciplinas/engenharia_de_sistemas",
 				"resumo": "Engenharia de sistemas é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D21",
+                    "id": "engenharia_de_sistemas",
                     "nome": "Engenharia de Sistemas",
                     "nucleo": "NC",
                     "teo": 64,
@@ -915,7 +906,6 @@
                     "periodo": "5°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz.",
                         "Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; prmcipios do pensamento sistêmico; representação de sistemas por modelos.",
@@ -950,7 +940,7 @@
                 "url": "/disciplinas/design_de_software",
 				"resumo": "Design de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D22",
+                    "id": "design_de_software",
                     "nome": "Design de Software",
                     "nucleo": "NC",
                     "teo": 48,
@@ -959,7 +949,6 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
                         "Contexto de projeto de software (4h).",
@@ -1003,7 +992,7 @@
                 "url": "/disciplinas/dominios_de_software",
 				"resumo": "Domínios de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D23",
+                    "id": "dominios_de_software",
                     "nome": "Domínios de Software",
                     "nucleo": "NC",
                     "teo": 16,
@@ -1012,7 +1001,6 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles.",
                         "Especificidades de alguns domínios de desenvolvimento (8h).",
@@ -1052,7 +1040,7 @@
                 "url": "/disciplinas/processos_de_qualidade_de_software",
 				"resumo": "Processos de qualidade de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D24",
+                    "id": "processos_de_qualidade_de_software",
                     "nome": "Processos de Qualidade de Software",
                     "nucleo": "NC",
                     "teo": 48,
@@ -1061,7 +1049,6 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software.",
                         "Processo de garantia da qualidade de software (IOh): garantia do produto e garantia do processo.",
@@ -1101,7 +1088,7 @@
                 "url": "/disciplinas/gerencia_de_projeto_de_software",
 				"resumo": "Gerência de projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D25",
+                    "id": "gerencia_de_projeto_de_software",
                     "nome": "Gerência de Projeto de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1110,7 +1097,6 @@
                     "periodo": "6°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO).",
                         "Tipos de projeto de software (4h): aquisição, desenvolvimento, refatoração, descontinuação.",
@@ -1146,7 +1132,7 @@
                 "url": "/disciplinas/software_concorrente_e_distribuido",
 				"resumo": "Software concorrente e distribuido é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D26",
+                    "id": "software_concorrente_e_distribuido",
                     "nome": "Software Concorrente e Distribuído",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1155,7 +1141,6 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.",
                         "Conceitos (4h): middleware, distribuição, paralelismo, concorrência, RESTful, web, internet das coisas, contêineres, troca de mensagens, micro-serviços, serviços web.",
@@ -1199,7 +1184,7 @@
                 "url": "/disciplinas/experiencia_do_usuario_de_software",
 				"resumo": "Experiência do usuário de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D27",
+                    "id": "experiencia_do_usuario_de_software",
                     "nome": "Experiência do Usuário de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1208,7 +1193,6 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Qualidade em uso (4h): usabilidade, acessibilidade.",
                         "Design centrado no usuário (8h): diretrizes, pesquisa, personas, jornadas de usuário, modelagem (especificação) e ferramentas.",
@@ -1252,7 +1236,7 @@
                 "url": "/disciplinas/arquitetura_de_software",
 				"resumo": "Arquitetura de Software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D28",
+                    "id": "arquitetura_de_software",
                     "nome": "Arquitetura de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1261,7 +1245,6 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
                         "Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura.",
@@ -1300,7 +1283,7 @@
                 "url": "/disciplinas/requisitos_de_software",
 				"resumo": "Requisitos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D29",
+                    "id": "requisitos_de_software",
                     "nome": "Requisitos de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1309,7 +1292,6 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.",
                         "Modelos e métodos da engenharia de requisitos (32).",
@@ -1349,7 +1331,7 @@
                 "url": "/disciplinas/governanca_e_gestao_de_servicos_de_software",
 				"resumo": "Governança e gestão de serviços de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D30",
+                    "id": "governanca_e_gestao_de_servicos_de_software",
                     "nome": "Governança e Gestão de Serviços de Software",
                     "nucleo": "NC",
                     "teo": 48,
@@ -1358,7 +1340,6 @@
                     "periodo": "7°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS.",
                         "Abordagens para GS (8h): aplicação de abordagens de GS em um contexto organizacional. Objetivos de controle para GS; indicadores e avaliação de desempenho de software; direcionamento, avaliação e controle do uso de serviços de software para apoiar os objetivos de uma organização.",
@@ -1398,7 +1379,7 @@
                 "url": "/disciplinas/software_para_sistemas_ubiquos",
 				"resumo": "Software para sistemas ubíquos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D31",
+                    "id": "software_para_sistemas_ubiquos",
                     "nome": "Software para Sistemas Ubíquos",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1407,7 +1388,6 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).",
                         "Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.",
@@ -1450,7 +1430,7 @@
                 "url": "/disciplinas/software_para_persistencia_de_dados",
 				"resumo": "Software para persistência de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D32",
+                    "id": "software_para_persistencia_de_dados",
                     "nome": "Software para Persistência de Dados",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1459,7 +1439,6 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Visão geral de persistência (12h): arquivos em formato texto/binário. Serialização de objetos. Documentos XML. JSON. Bancos de dados relacionais. Bancos NoSql.",
                         "Modelagem e implementação de bancos de dados (28h).",
@@ -1498,7 +1477,7 @@
                 "url": "/disciplinas/padroes_de_arquitetura_de_software",
 				"resumo": "Padrões de arquitetura de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D33",
+                    "id": "padroes_de_arquitetura_de_software",
                     "nome": "Padrões de Arquitetura de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1507,7 +1486,6 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC.",
                         "Norma ISO/IEC/IEEE 42010:2011 (8h).",
@@ -1544,7 +1522,7 @@
                 "url": "/disciplinas/teste_de_software",
 				"resumo": "Teste de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D34",
+                    "id": "teste_de_software",
                     "nome": "Teste de Software",
                     "nucleo": "NC",
                     "teo": 32,
@@ -1553,7 +1531,6 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "ementa": [
                         "Processo de construção (8h): definições básicas, atividades e documentação.",
                         "Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas."
@@ -1595,7 +1572,7 @@
                 "url": "/disciplinas/pratica_em_engenharia_de_software",
 				"resumo": "Prática em engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D35",
+                    "id": "pratica_em_engenharia_de_software",
                     "nome": "Prática em Engenharia de Software",
                     "nucleo": "NC",
                     "teo": 0,
@@ -1604,7 +1581,6 @@
                     "periodo": "9°",
                     "unidade": "INF",
                     "obrigatoria": "Sim",
-                    "prerequisito": [],
                     "descricao": "O egresso do BES passa pela vivência de dois tipos de experiências práticas diferentes em suas essências. O primeiro grupo de experiências é composto pelas experiências promovidas nas atividades práticas realizadas de maneira contínua e integrada desde o início do curso, no contexto das diversas disciplinas teórico-práticas que compõem a grade curricular do BES. O segundo tipo de experiências é proporcionado pela disciplina \"Prática em Engenharia de Software\", que envolve a participação integral do aluno em projetos reais de Engenharia de Software realizados em ambiente típico da indústria de software. É importante contrapor esse cenário de \"projeto real\", onde todas as competências são exigidas, com o cenário das atividades práticas realizadas dentro do contexto de uma disciplina, normalmente limitado pelo conteúdo da própria disciplina. A Engenharia de Software compreende o uso de processos. Tais processos são claramente explicitados no projeto pedagógico do curso e podem ser classificados em dois grandes tipos: Processos Técnicos de Engenharia de Software e Processos de Gestão de Engenharia de Software. Além disso, o domínio de Tecnologias de Engenharia de Software, aplicadas tanto a processos técnicos quanto a processos de gestão de Engenharia de Software, é uma competência obrigatória para o profissional que trabalha com software. Assim, pode-se considerar que o Engenheiro de Software deve ser capaz de realizar atividades que envolvem três tipos de competências: técnicas, gerenciais e tecnológicas. A disciplina \"Prática em Engenharia de Software\" fornece o ambiente necessário para o amadurecimento das competências dos estudantes, pela aquisição de conhecimentos e desenvolvimento de habilidades e atitudes como profissional de Engenharia de Software. Esta prática acontece na fase final do currículo, na qual são reforçadas as habilidades, competências e conhecimentos adquiridos ao longo das disciplinas teórico-práticas do curso, em um ambiente que representa de forma realista os cenários que serão experimentados na vida profissional do Engenheiro de Software. O INF possui uma Fábrica de Software (FS/INF) [CUSUMANO]. O termo \"Fábrica\" indica um comprometimento de longo prazo e de esforços integrados, acima do nível de projetos individuais, para aprimorar todas as operações de obtenção de software [AAEN]. NA FS/INF, os projetos têm como objetivo atender as necessidades de usuários e patrocinadores reais, ou seja, visam a geração de produtos e/ou a prestação de serviços em Engenharia de Software para a sociedade. Dessa forma, os projetos precisam atender, por exemplo, requisitos de qualidade, de escopo e restrições de custo e prazo definidos pelas partes interessadas do projeto em questão. Além disso, a FS/INF também é responsável por garantir os requisitos definidos pelas normas técnicas aplicáveis de Engenharia de Software. Todas as atividades da Prática em Engenharia de Software previstas no BES são realizadas na FS/INF, sob a supervisão direta de docentes do Instituto de Informática. Portanto, a cada semestre letivo, a FS/INF recebe docentes e estudantes que atuarão nos seus projetos. Cabe ressaltar que, embora os projetos e as atividades da FS/INF não estejam limitados pelo calendário acadêmico, existe um compromisso entre a FS/INF e o curso de BES assegurando que o processo de Gestão do Portfólio da Fábrica selecionará os projetos e as atividades que apresentem condições adequadas ao exercício das práticas de Engenharia de Software pelos estudantes como descritas nesse PPC. Desta forma, o estudante terá a oportunidade concreta de integrar teoria e prática, envolvendo-se em situações-problema geradas pela experiência de campo e que exigem atividades de pesquisa, consultorias, debates e adoção de novas condutas. É também uma oportunidade para que o estudante seja avaliado quanto à sua atitude ética e profissional, quanto ao respeito às normas institucionais da FS/INF e quanto à sua relação com os demais envolvidos no projeto, incluindo usuários e patrocinadores. A \"Prática em Engenharia de Software\" é realizada pelo estudante preferencialmente após ter obtido aprovação nas demais disciplinas do BES. A disciplina é integralizada com 320 horas de atividades relacionadas a projetos da FS/INF, é ofertada a cada semestre letivo e os docentes atuam como preceptores. Neste sentido, o docente é o profissional responsável pela integração teoria-prática ao longo do projeto, ensinando, supervisionando, orientando e conduzindo o aluno na prática efetiva de sua futura profissão. Os estudantes são divididos em três grupos para melhor acompanhamento das atividades. Cada grupo, em um dado instante, realiza um tipo de atividade típica do exercício profissional: processos técnicos, processos de gestão ou domínio de tecnologias. Ao final da disciplina, é garantido que todos os grupos vivenciaram atividades dos três tipos. A avaliação do estudante é formativa, enfatizando o seu acompanhamento durante todo o período letivo, com o intuito de não apenas verificar se o estudante está alcançando os objetivos propostos, mas também informando seus erros e acertos, além de promover o estímulo necessário para continuar os estudos e o seu desenvolvimento. Concluindo, a disciplina \"Prática em Engenharia de Software\" favorece um ensino baseado na prática, com foco centrado na ética e na postura do profissional de Engenharia de Software perante os desafios que ocorrem quando se trabalha com software, que é um dos artefatos mais complexos que a humanidade produz. Quando o estudante atua em atividades práticas relevantes para a sua futura vida profissional, enfrentando os desafios reais de sua profissão ainda durante sua formação, sua compreensão se torna cada vez mais crítica e comprometida com a sociedade na qual se insere. Portanto, essa disciplina estimula e valoriza as dimensões ética e humanística na formação do Engenheiro de Software, desenvolvendo atitudes e valores orientados para a cidadania e para o desenvolvimento da sociedade.",
                     "ementa": [
                         "Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade; seleção e utilização de normas, métodos, técnicas e ferramentas de Engenharia de Software para atingir objetivos estabelecidos no projeto; integração e consolidação de conhecimentos e habilidades esperadas do profissional de Engenharia de Software; exercício de práticas e atitudes profissionais embasadas no código de ética e na postura profissional da Engenharia de Software; prática em processos técnicos de Engenharia de Software; prática em Gestão de Engenharia de Software; prática em Tecnologias de Engenharia de Software."
@@ -1643,7 +1619,7 @@
                 "url": "/disciplinas/sistemas_operacionais",
 				"resumo": "Sistemas operacionais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D36",
+                    "id": "disciplinas_optativas",
                     "nome": "Sistemas Operacionais",
                     "nucleo": "NE",
                     "teo": 32,
@@ -1653,7 +1629,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [
-                        "D5"
+                        "arquitetura_de_computadores"
                     ],
                     "ementa": [
                         "Conceitos de Hardware e Software.",
@@ -1683,7 +1659,7 @@
                 "url": "/disciplinas/pesquisa_operacional",
 				"resumo": "Pesquisa operacional é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D37",
+                    "id": "pesquisa_operacional",
                     "nome": "Pesquisa Operacional",
                     "nucleo": "NE",
                     "teo": 64,
@@ -1693,7 +1669,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [
-                        "D8"
+                        "algebra_linear"
                     ],
                     "ementa": [
                         "Modelagem.",
@@ -1724,7 +1700,7 @@
                 "url": "/disciplinas/linguagens_formais_e_automatos",
 				"resumo": "Linguagens formais e autômatos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D38",
+                    "id": "linguagens_formais_e_automatos",
                     "nome": "Linguagens Formais e Autômatos",
                     "nucleo": "NE",
                     "teo": 64,
@@ -1734,7 +1710,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [
-                        "D4"
+                        "fundamentos_de_matematica_para_computacao"
                     ],
                     "ementa": [
                         "Conceitos básicos de linguagens.",
@@ -1764,7 +1740,7 @@
                 "url": "/disciplinas/redes_de_computadores",
 				"resumo": "Redes de computadores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D39",
+                    "id": "redes_de_computadores",
                     "nome": "Redes de computadores",
                     "nucleo": "NE",
                     "teo": 32,
@@ -1774,7 +1750,7 @@
                     "Unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [
-                        "D36"
+                        "disciplinas_optativas"
                     ],
                     "ementa": [
                         "Fundamentos.",
@@ -1807,7 +1783,7 @@
                 "url": "/disciplinas/introducao_a_lingua_brasileira_de_sinais",
 				"resumo": "Introdução a língua brasileira de sinais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D40",
+                    "id": "introducao_a_lingua_brasileira_de_sinais",
                     "nome": "Introdução à Língua Brasileira de Sinais",
                     "nucleo": "NE",
                     "teo": 64,
@@ -1816,7 +1792,6 @@
                     "periodo": "4°",
                     "unidade": "LETRAS",
                     "obrigatoria": "Não",
-                    "prerequisito": [],
                     "ementa": [
                         "Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares.",
                         "Concepções sobre a Língua de Sinais.",
@@ -1846,7 +1821,7 @@
                 "url": "/disciplinas/compiladores",
 				"resumo": "Compiladores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D41",
+                    "id": "compiladores",
                     "nome": "Compiladores",
                     "nucleo": "NE",
                     "teo": 64,
@@ -1891,7 +1866,7 @@
                 "url": "/disciplinas/sistemas_distribuidos",
 				"resumo": "Sistemas distribuidos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D42",
+                    "id": "sistemas_distribuidos",
                     "nome": "Sistemas Distribuídos",
                     "nucleo": "NE",
                     "teo": 32,
@@ -1901,7 +1876,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [
-                        "D10"
+                        "programacao_orientada_a_objetos"
                     ],
                     "ementa": [
                         "Introdução a Sistemas Distribuídos",
@@ -1933,7 +1908,7 @@
                 "url": "/disciplinas/metodologia_e_experimentacao_em_engenharia_de_software",
 				"resumo": "Metodologia e experimentação em engenharia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D43",
+                    "id": "metodologia_e_experimentacao_em_engenharia_de_software",
                     "nome": "Metodologia e Experimentação em Engenharia de Software",
                     "nucleo": "NE",
                     "teo": 32,
@@ -1942,7 +1917,6 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "prerequisito": [],
                     "ementa": [
                         "Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software.",
                         "Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura.",
@@ -1975,7 +1949,7 @@
                 "url": "/disciplinas/mercado_e_economia_de_software",
 				"resumo": "Mercado e economia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
-                    "id": "D44",
+                    "id": "mercado_e_economia_de_software",
                     "nome": "Mercado e Economia de Software",
                     "nucleo": "NE",
                     "teo": 32,
@@ -1984,7 +1958,6 @@
                     "periodo": "8°",
                     "unidade": "INF",
                     "obrigatoria": "Não",
-                    "prerequisito": [],
                     "ementa": [
                         "Modelos de negócio para software (aluguel, serviço, código aberto).",
                         "Leis, normas, impostos e legislação brasileira para o mercado local e para a exportação de software.",

@@ -80,7 +80,7 @@ class HeaderContactInfo extends Component {
                               Busca&nbsp;&nbsp; <i className="fa fa-search"/>
                               <i className="fa fa-caret-down"/></a>
                             <ul className="dropdown-menu custom-fullwidth-dropdown-menu"
-                                style={{backgroundColor: '#ba9459'}}>
+                                style={{backgroundColor: '#81c0e7'}}>
                               <form id="propertiesFormHeader" action="/q=" method="GET"
                                     noValidate="novalidate" onSubmit={this.onSubmit.bind(this)}>
                                 <li>
