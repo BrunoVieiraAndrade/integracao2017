@@ -8,7 +8,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Computação e Sociedade",
                 "url": "/disciplinas/computacao_e_sociedade",
-				"resumo": "Computação e sociedade é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Computação e sociedade é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D1",
                     "nome": "Computação e Sociedade",
@@ -20,6 +20,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "História da computação.",
                         "Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.",
@@ -31,7 +32,6 @@
                         "Ética na Computação.",
                         "Empresas de tecnologia da informação.",
                         "Incubadoras de empresas."
-
                     ],
                     "bibliografia": {
                         "bibliografia_basica": [
@@ -47,7 +47,6 @@
                             "PAESANI, L. M. Direito de Informática. Editora Atlas, 2005."
                         ]
                     }
-
                 }
             },
             {
@@ -55,7 +54,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Introdução à Programação",
                 "url": "/disciplinas/introducacao_a_programacao",
-				"resumo": "Introdução a programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Introdução a programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D2",
                     "nome": "Introdução à Programação",
@@ -67,6 +66,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Introdução a algoritmos.",
                         "Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.",
@@ -99,7 +99,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Cálculo 1A",
                 "url": "/disciplinas/calculo_1a",
-				"resumo": "Cálculo 1A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Cálculo 1A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D3",
                     "nome": "Cálculo lA",
@@ -111,6 +111,7 @@
                     "unidade": "IME",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Números reais. Funções reais de uma variável real e suas inversas.",
                         "Noções sobre cônicas.",
@@ -141,7 +142,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Fundamentos de Matemática para Computação",
                 "url": "/disciplinas/fundamentos_de_matematica_para_computacao",
-				"resumo": "Fundamentos de matemática para computação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Fundamentos de matemática para computação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D4",
                     "nome": "Fundamentos de Matemática para Computação",
@@ -153,6 +154,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Noções de lógica.",
                         "Introdução a demonstrações",
@@ -182,7 +184,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Arquitetura de Computadores",
                 "url": "/disciplinas/arquitetura_de_computadores",
-				"resumo": "Arquitetura de computadores é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Arquitetura de computadores é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D5",
                     "nome": "Arquitetura de Computadores",
@@ -196,6 +198,7 @@
                     "prerequisito": [
                         "D4"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Visão geral dos computadores modernos.",
                         "Evolução da arquitetura dos computadores.",
@@ -229,7 +232,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Algoritmos e Estruturas de Dados 1",
                 "url": "/disciplinas/algoritmos_e_estrutura_de_dados_1",
-				"resumo": "Algoritmos e estrutura de dados 1 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Algoritmos e estrutura de dados 1 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D6",
                     "nome": "Algoritmos e Estruturas de Dados 1",
@@ -243,6 +246,7 @@
                     "prerequisito": [
                         "D2"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Noções de complexidade de algoritmos (notações de complexidade).",
                         "Algoritmos de pesquisa: pesquisa sequencial e binária.",
@@ -272,7 +276,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Probabilidade e Estatística A",
                 "url": "/disciplinas/probabilidade_e_estatistica_a",
-				"resumo": "Probabilidade e estatística A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Probabilidade e estatística A é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D7",
                     "nome": "Probabilidade e Estatística A",
@@ -286,6 +290,7 @@
                     "prerequisito": [
                         "D3"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Estatística descritiva. Noções sobre amostragem.",
                         "Introdução à teoria de conjuntos.",
@@ -318,7 +323,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Álgebra Linear",
                 "url": "/disciplinas/algebra_linear",
-				"resumo": "Algebra linear é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Algebra linear é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D8",
                     "nome": "Álgebra Linear",
@@ -330,6 +335,7 @@
                     "unidade": "IME",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Sistemas lineares e matrizes.",
                         "Espaços vetoriais.",
@@ -358,7 +364,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Lógica Matemática",
                 "url": "/disciplinas/logica_matematica",
-				"resumo": "Lógica matemática é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Lógica matemática é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D9",
                     "nome": "Lógica Matemática",
@@ -372,6 +378,7 @@
                     "prerequisito": [
                         "D4"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);",
                         "Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural",
@@ -399,7 +406,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Programação Orientada a Objetos",
                 "url": "/disciplinas/programacao_orientada_a_objetos",
-				"resumo": "Programação orientada a objetos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Programação orientada a objetos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D10",
                     "nome": "Programação Orientada a Objetos",
@@ -413,6 +420,7 @@
                     "prerequisito": [
                         "D2"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Abstração e tipos abstratos de dados.",
                         "Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo.",
@@ -441,7 +449,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Algoritmos e Estruturas de Dados 2",
                 "url": "/disciplinas/algoritmos_e_estruturas_de_dados_2",
-				"resumo": "Algoritmos e estrutura de dados 2 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Algoritmos e estrutura de dados 2 é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D11",
                     "nome": "Algoritmos e Estruturas de Dados 2",
@@ -455,6 +463,7 @@
                     "prerequisito": [
                         "D6"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).",
                         "Filas de prioridades. Heaps, Heapsort. Hashing: tipos de funções de hashing; tratamento de colisões.",
@@ -483,7 +492,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Linguagens e Paradigmas de Programação",
                 "url": "/disciplinas/linguagens_e_paradigmas_de_programacao",
-				"resumo": "Linguagens e paradigmas de programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Linguagens e paradigmas de programação é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D12",
                     "nome": "Linguagens e Paradigmas de Programação",
@@ -497,6 +506,7 @@
                     "prerequisito": [
                         "D2"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.",
                         "Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação.",
@@ -524,7 +534,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Engenharia de Software",
                 "url": "/disciplinas/engenharia_de_software",
-				"resumo": "Engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D13",
                     "nome": "Engenharia de Software",
@@ -536,6 +546,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Requisitos de software.",
                         "Projeto (design) de software.",
@@ -573,7 +584,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Análise e Projeto de Algoritmos",
                 "url": "/disciplinas/analise_e_projeto_de_algoritmos",
-				"resumo": "Análise e projeto de algoritmos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Análise e projeto de algoritmos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D14",
                     "nome": "Análise e Projeto de Algoritmos",
@@ -588,6 +599,7 @@
                         "D4",
                         "D11"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.",
                         "Corretude de Algoritmos.",
@@ -616,7 +628,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Interação Humano-Computador",
                 "url": "/disciplinas/interacao_humano_computador",
-				"resumo": "Integração humano computador é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Integração humano computador é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D15",
                     "nome": "Interação Humano-Computador",
@@ -631,6 +643,7 @@
                         "D6",
                         "D7"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Aspectos gerais sobre interação humano-computador.",
                         "Características humanísticas e biológicas, envolvendo questões sobre genealogia, gênero, aspectos étnicos, raciais e culturais, direitos e aspectos políticos, deficiências, limitações e capacidades, dentre outros.",
@@ -664,7 +677,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Banco de Dados",
                 "url": "/disciplinas/banco_de_dados",
-				"resumo": "Banco de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Banco de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D16",
                     "nome": "Banco de Dados",
@@ -678,6 +691,7 @@
                     "prerequisito": [
                         "D9"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Conceitos básicos de Banco de Dados.",
                         "Modelo relacional.",
@@ -707,7 +721,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Projeto de Software",
                 "url": "/disciplinas/projeto_de_software",
-				"resumo": "Projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D17",
                     "nome": "Projeto de Software",
@@ -722,6 +736,7 @@
                         "D10",
                         "D13"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Fundamentos de design de software.",
                         "Questões básicas de design de software: concorrência, controle e tratamento de eventos, persistência de dados, distribuição, tratamento de erro e exceção, tolerância a falhas, interação e apresentação, e segurança. Estrutura e arquitetura de software.",
@@ -759,7 +774,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Construção de Software",
                 "url": "/disciplinas/construcao_de_software",
-				"resumo": "Construção de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Construção de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D18",
                     "nome": "Construção de Software",
@@ -771,6 +786,50 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [
+                        "Fundamentos de construção de software",
+                        "Minimizando a complexidade",
+                        "Antecipando mudanças",
+                        "Construção para verificação",
+                        "Reuso",
+                        "Padrões em construção",
+                        "Gerenciamento de construção",
+                        "Construção em modelos de ciclo de vida",
+                        "Planejamento de construção",
+                        "Medidas de construção",
+                        "Considerações práticas",
+                        "Design de construção",
+                        "Linguagens de construção",
+                        "Codificação",
+                        "Teste de construção",
+                        "Construção para reuso",
+                        "Construção com reuso",
+                        "Qualidade de construção",
+                        "Integração",
+                        "Tecnologias de construção",
+                        "API design e uso",
+                        "Considerações sobre tempo de execução orientado a objetos",
+                        "Parametrização e genericos",
+                        "Asserções, design por contrato, programação defensiva",
+                        "Manuseamento de erros, manuseamento de exceções, tolerância a falhas",
+                        "Modelos executáveis",
+                        "Técnicas de construção baseada em estado e dirigida à mesa",
+                        "Configuração e internacionalização em tempo de execução",
+                        "Processamento de entrada baseado em gramática",
+                        "Princípios de concorrência",
+                        "Middleware",
+                        "Métodos de construção para software distribuído",
+                        "Construindo sistemas heterogêneos",
+                        "Análise de perfomance e balanceamento",
+                        "Padrões de plataforma",
+                        "Programação teste primeiro",
+                        "Ferramentas de construção de software",
+                        "Ambientes de desenvolvimento",
+                        "Construtores de GUI",
+                        "Ferramentas de teste unitário",
+                        "Recortes, análise de performance, e ferramentas de recorte",
+                        "Matriz de tópicos ou material de referência"
+                    ],
                     "ementa": [
                         "Visão geral (4h): construção (minimizar complexidade, antecipação de mudança, verificação, padrões), projeto de software (sofware design), qualidade de produto.",
                         "Planejamento (8h): linguagens de programação e processos de construção.",
@@ -815,7 +874,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Modelagem de Software",
                 "url": "/disciplinas/modelagem_de_software",
-				"resumo": "Modelagem de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Modelagem de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D19",
                     "nome": "Modelagem de Software",
@@ -827,6 +886,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software.",
                         "Processo de projeto de software (4h).",
@@ -859,7 +919,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Processos de Software",
                 "url": "/disciplinas/processos_de_software",
-				"resumo": "Processos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Processos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D20",
                     "nome": "Processos de Software",
@@ -871,6 +931,7 @@
                     "enidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Visão geral (8h): processo, método e modelo.",
                         "Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h).",
@@ -904,7 +965,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Engenharia de Sistemas",
                 "url": "/disciplinas/engenharia_de_sistemas",
-				"resumo": "Engenharia de sistemas é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Engenharia de sistemas é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D21",
                     "nome": "Engenharia de Sistemas",
@@ -916,6 +977,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz.",
                         "Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; prmcipios do pensamento sistêmico; representação de sistemas por modelos.",
@@ -948,7 +1010,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Design de Software",
                 "url": "/disciplinas/design_de_software",
-				"resumo": "Design de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Design de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D22",
                     "nome": "Design de Software",
@@ -960,6 +1022,51 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [
+                        "Fundamentos de design de software",
+                        "Conceitos gerais de design",
+                        "Contexto do design de software",
+                        "Processo do design de software",
+                        "Princípios do design de software",
+                        "Pontos chaves no design de software",
+                        "Concorrência",
+                        "Controle e manejamento de eventos",
+                        "Persistência de dados",
+                        "Distribuição de componentes",
+                        "Erro e manejamento de exceção e tolerância a falhas",
+                        "Interação e apresentação",
+                        "Segurança",
+                        "Estrutura e arquitetura de software",
+                        "Estruturas e pontos de vista arquiteturais",
+                        "Estilos arquiteturais",
+                        "Padrões de design",
+                        "Decisões de design arquitetural",
+                        "Famílias de programas e ferramentas de trabalho",
+                        "Design de interface de usuário (UID)",
+                        "Princípios gerais de design de interface de usuário",
+                        "Considerações sobre design de interface de usuário",
+                        "Modalidades de design de interação com o usuário",
+                        "Apresentação do design de informação",
+                        "Processo de design de interface de usuário",
+                        "localização e internacionalização",
+                        "metáforas e modelos conceituais",
+                        "Análise e validação de design de software",
+                        "Atributos de qualidade",
+                        "Análise de qualidade e técnicas de avaliação",
+                        "Medições",
+                        "Notações de design de software",
+                        "Descrições estruturais (Visão estática)",
+                        "Descrições comportamentais (Visão dinâmica)",
+                        "Estratégias e métodos de design de software",
+                        "Estratégias gerais",
+                        "Design orientado a função (estruturado)",
+                        "Design orientado a objetos",
+                        "Design centrado em estruturas de dados",
+                        "Design baseado em componentes",
+                        "Outros métodos",
+                        "Ferramentas de design de software",
+                        "Matriz de tópicos ou material de referência"
+                    ],
                     "ementa": [
                         "Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
                         "Contexto de projeto de software (4h).",
@@ -1001,7 +1108,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Domínios de Software",
                 "url": "/disciplinas/dominios_de_software",
-				"resumo": "Domínios de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Domínios de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D23",
                     "nome": "Domínios de Software",
@@ -1013,6 +1120,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles.",
                         "Especificidades de alguns domínios de desenvolvimento (8h).",
@@ -1050,7 +1158,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Processos de Qualidade de Software",
                 "url": "/disciplinas/processos_de_qualidade_de_software",
-				"resumo": "Processos de qualidade de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Processos de qualidade de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D24",
                     "nome": "Processos de Qualidade de Software",
@@ -1062,6 +1170,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software.",
                         "Processo de garantia da qualidade de software (IOh): garantia do produto e garantia do processo.",
@@ -1099,7 +1208,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Gerência de Projeto de Software",
                 "url": "/disciplinas/gerencia_de_projeto_de_software",
-				"resumo": "Gerência de projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Gerência de projeto de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D25",
                     "nome": "Gerência de Projeto de Software",
@@ -1111,6 +1220,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO).",
                         "Tipos de projeto de software (4h): aquisição, desenvolvimento, refatoração, descontinuação.",
@@ -1144,7 +1254,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Software Concorrente e Distribuído",
                 "url": "/disciplinas/software_concorrente_e_distribuido",
-				"resumo": "Software concorrente e distribuido é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Software concorrente e distribuido é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D26",
                     "nome": "Software Concorrente e Distribuído",
@@ -1156,6 +1266,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.",
                         "Conceitos (4h): middleware, distribuição, paralelismo, concorrência, RESTful, web, internet das coisas, contêineres, troca de mensagens, micro-serviços, serviços web.",
@@ -1197,7 +1308,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Experiência do Usuário de Software",
                 "url": "/disciplinas/experiencia_do_usuario_de_software",
-				"resumo": "Experiência do usuário de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Experiência do usuário de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D27",
                     "nome": "Experiência do Usuário de Software",
@@ -1209,6 +1320,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Qualidade em uso (4h): usabilidade, acessibilidade.",
                         "Design centrado no usuário (8h): diretrizes, pesquisa, personas, jornadas de usuário, modelagem (especificação) e ferramentas.",
@@ -1250,7 +1362,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Arquitetura de Software",
                 "url": "/disciplinas/arquitetura_de_software",
-				"resumo": "Arquitetura de Software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Arquitetura de Software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D28",
                     "nome": "Arquitetura de Software",
@@ -1262,6 +1374,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.",
                         "Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura.",
@@ -1298,7 +1411,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Requisitos de Software",
                 "url": "/disciplinas/requisitos_de_software",
-				"resumo": "Requisitos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Requisitos de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D29",
                     "nome": "Requisitos de Software",
@@ -1310,6 +1423,46 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [
+                        "Fundamentos de requisitos de software",
+                        "Definição de um requisito de software",
+                        "Requisitos de produto e processo",
+                        "Requisitos funcionais e não funcionais",
+                        "Propriedades emergentes",
+                        "Requisitos quantificáveis",
+                        "Requisitos de sistema e requisitos de software",
+                        "Processo de requisitos",
+                        "Modelos de processo",
+                        "Atores do processo",
+                        "Suporte e gerenciamento do processo",
+                        "Qualidade e melhorias do processo",
+                        "Elicitação de requisitos",
+                        "Fontes dos requisitos",
+                        "Técnicas de elicitação",
+                        "Análise de requisitos",
+                        "Classificação de requisitos",
+                        "Modelagem conceitual",
+                        "Design arquitetural e alocação de requisitos",
+                        "Negociação de requisitos",
+                        "Análise Formal",
+                        "Especificação de requisitos",
+                        "Documento de definição do sistema",
+                        "Especificação de requisitos do sistema",
+                        "Especificação de requisitos do software",
+                        "Validação de requisitos",
+                        "Revisão de requisitos",
+                        "Prototipação",
+                        "Validação do modelo",
+                        "Teste de aceitação",
+                        "Considerações práticas",
+                        "Natureza iterativa do processo de requisitos",
+                        "Gerência de mudanças",
+                        "Atributos dos requisitos",
+                        "Rastreabilidade dos requisitos",
+                        "Requisitos de medição",
+                        "Ferramentas de requisitos de software",
+                        "Matriz de tópicos ou material de referência"
+                    ],
                     "ementa": [
                         "Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.",
                         "Modelos e métodos da engenharia de requisitos (32).",
@@ -1347,7 +1500,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Governança e Gestão de Serviços de Software",
                 "url": "/disciplinas/governanca_e_gestao_de_servicos_de_software",
-				"resumo": "Governança e gestão de serviços de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Governança e gestão de serviços de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D30",
                     "nome": "Governança e Gestão de Serviços de Software",
@@ -1359,6 +1512,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS.",
                         "Abordagens para GS (8h): aplicação de abordagens de GS em um contexto organizacional. Objetivos de controle para GS; indicadores e avaliação de desempenho de software; direcionamento, avaliação e controle do uso de serviços de software para apoiar os objetivos de uma organização.",
@@ -1396,7 +1550,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Software para Sistemas Ubíquos",
                 "url": "/disciplinas/software_para_sistemas_ubiquos",
-				"resumo": "Software para sistemas ubíquos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Software para sistemas ubíquos é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D31",
                     "nome": "Software para Sistemas Ubíquos",
@@ -1408,6 +1562,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).",
                         "Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.",
@@ -1448,7 +1603,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Software para Persistência de Dados",
                 "url": "/disciplinas/software_para_persistencia_de_dados",
-				"resumo": "Software para persistência de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Software para persistência de dados é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D32",
                     "nome": "Software para Persistência de Dados",
@@ -1460,6 +1615,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Visão geral de persistência (12h): arquivos em formato texto/binário. Serialização de objetos. Documentos XML. JSON. Bancos de dados relacionais. Bancos NoSql.",
                         "Modelagem e implementação de bancos de dados (28h).",
@@ -1496,7 +1652,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Padrões de Arquitetura de Software",
                 "url": "/disciplinas/padroes_de_arquitetura_de_software",
-				"resumo": "Padrões de arquitetura de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Padrões de arquitetura de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D33",
                     "nome": "Padrões de Arquitetura de Software",
@@ -1508,6 +1664,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC.",
                         "Norma ISO/IEC/IEEE 42010:2011 (8h).",
@@ -1542,7 +1699,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Teste de Software",
                 "url": "/disciplinas/teste_de_software",
-				"resumo": "Teste de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Teste de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D34",
                     "nome": "Teste de Software",
@@ -1554,6 +1711,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Processo de construção (8h): definições básicas, atividades e documentação.",
                         "Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas."
@@ -1593,7 +1751,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Prática em Engenharia de Software",
                 "url": "/disciplinas/pratica_em_engenharia_de_software",
-				"resumo": "Prática em engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Prática em engenharia de software é uma disciplina obrigatória e faz parte do núcleo comum do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D35",
                     "nome": "Prática em Engenharia de Software",
@@ -1605,6 +1763,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "descricao": "O egresso do BES passa pela vivência de dois tipos de experiências práticas diferentes em suas essências. O primeiro grupo de experiências é composto pelas experiências promovidas nas atividades práticas realizadas de maneira contínua e integrada desde o início do curso, no contexto das diversas disciplinas teórico-práticas que compõem a grade curricular do BES. O segundo tipo de experiências é proporcionado pela disciplina \"Prática em Engenharia de Software\", que envolve a participação integral do aluno em projetos reais de Engenharia de Software realizados em ambiente típico da indústria de software. É importante contrapor esse cenário de \"projeto real\", onde todas as competências são exigidas, com o cenário das atividades práticas realizadas dentro do contexto de uma disciplina, normalmente limitado pelo conteúdo da própria disciplina. A Engenharia de Software compreende o uso de processos. Tais processos são claramente explicitados no projeto pedagógico do curso e podem ser classificados em dois grandes tipos: Processos Técnicos de Engenharia de Software e Processos de Gestão de Engenharia de Software. Além disso, o domínio de Tecnologias de Engenharia de Software, aplicadas tanto a processos técnicos quanto a processos de gestão de Engenharia de Software, é uma competência obrigatória para o profissional que trabalha com software. Assim, pode-se considerar que o Engenheiro de Software deve ser capaz de realizar atividades que envolvem três tipos de competências: técnicas, gerenciais e tecnológicas. A disciplina \"Prática em Engenharia de Software\" fornece o ambiente necessário para o amadurecimento das competências dos estudantes, pela aquisição de conhecimentos e desenvolvimento de habilidades e atitudes como profissional de Engenharia de Software. Esta prática acontece na fase final do currículo, na qual são reforçadas as habilidades, competências e conhecimentos adquiridos ao longo das disciplinas teórico-práticas do curso, em um ambiente que representa de forma realista os cenários que serão experimentados na vida profissional do Engenheiro de Software. O INF possui uma Fábrica de Software (FS/INF) [CUSUMANO]. O termo \"Fábrica\" indica um comprometimento de longo prazo e de esforços integrados, acima do nível de projetos individuais, para aprimorar todas as operações de obtenção de software [AAEN]. NA FS/INF, os projetos têm como objetivo atender as necessidades de usuários e patrocinadores reais, ou seja, visam a geração de produtos e/ou a prestação de serviços em Engenharia de Software para a sociedade. Dessa forma, os projetos precisam atender, por exemplo, requisitos de qualidade, de escopo e restrições de custo e prazo definidos pelas partes interessadas do projeto em questão. Além disso, a FS/INF também é responsável por garantir os requisitos definidos pelas normas técnicas aplicáveis de Engenharia de Software. Todas as atividades da Prática em Engenharia de Software previstas no BES são realizadas na FS/INF, sob a supervisão direta de docentes do Instituto de Informática. Portanto, a cada semestre letivo, a FS/INF recebe docentes e estudantes que atuarão nos seus projetos. Cabe ressaltar que, embora os projetos e as atividades da FS/INF não estejam limitados pelo calendário acadêmico, existe um compromisso entre a FS/INF e o curso de BES assegurando que o processo de Gestão do Portfólio da Fábrica selecionará os projetos e as atividades que apresentem condições adequadas ao exercício das práticas de Engenharia de Software pelos estudantes como descritas nesse PPC. Desta forma, o estudante terá a oportunidade concreta de integrar teoria e prática, envolvendo-se em situações-problema geradas pela experiência de campo e que exigem atividades de pesquisa, consultorias, debates e adoção de novas condutas. É também uma oportunidade para que o estudante seja avaliado quanto à sua atitude ética e profissional, quanto ao respeito às normas institucionais da FS/INF e quanto à sua relação com os demais envolvidos no projeto, incluindo usuários e patrocinadores. A \"Prática em Engenharia de Software\" é realizada pelo estudante preferencialmente após ter obtido aprovação nas demais disciplinas do BES. A disciplina é integralizada com 320 horas de atividades relacionadas a projetos da FS/INF, é ofertada a cada semestre letivo e os docentes atuam como preceptores. Neste sentido, o docente é o profissional responsável pela integração teoria-prática ao longo do projeto, ensinando, supervisionando, orientando e conduzindo o aluno na prática efetiva de sua futura profissão. Os estudantes são divididos em três grupos para melhor acompanhamento das atividades. Cada grupo, em um dado instante, realiza um tipo de atividade típica do exercício profissional: processos técnicos, processos de gestão ou domínio de tecnologias. Ao final da disciplina, é garantido que todos os grupos vivenciaram atividades dos três tipos. A avaliação do estudante é formativa, enfatizando o seu acompanhamento durante todo o período letivo, com o intuito de não apenas verificar se o estudante está alcançando os objetivos propostos, mas também informando seus erros e acertos, além de promover o estímulo necessário para continuar os estudos e o seu desenvolvimento. Concluindo, a disciplina \"Prática em Engenharia de Software\" favorece um ensino baseado na prática, com foco centrado na ética e na postura do profissional de Engenharia de Software perante os desafios que ocorrem quando se trabalha com software, que é um dos artefatos mais complexos que a humanidade produz. Quando o estudante atua em atividades práticas relevantes para a sua futura vida profissional, enfrentando os desafios reais de sua profissão ainda durante sua formação, sua compreensão se torna cada vez mais crítica e comprometida com a sociedade na qual se insere. Portanto, essa disciplina estimula e valoriza as dimensões ética e humanística na formação do Engenheiro de Software, desenvolvendo atitudes e valores orientados para a cidadania e para o desenvolvimento da sociedade.",
                     "ementa": [
                         "Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade; seleção e utilização de normas, métodos, técnicas e ferramentas de Engenharia de Software para atingir objetivos estabelecidos no projeto; integração e consolidação de conhecimentos e habilidades esperadas do profissional de Engenharia de Software; exercício de práticas e atitudes profissionais embasadas no código de ética e na postura profissional da Engenharia de Software; prática em processos técnicos de Engenharia de Software; prática em Gestão de Engenharia de Software; prática em Tecnologias de Engenharia de Software."
@@ -1641,7 +1800,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Operacionais",
                 "url": "/disciplinas/sistemas_operacionais",
-				"resumo": "Sistemas operacionais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Sistemas operacionais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D36",
                     "nome": "Sistemas Operacionais",
@@ -1655,6 +1814,7 @@
                     "prerequisito": [
                         "D5"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Conceitos de Hardware e Software.",
                         "Tipos de Sistemas Operacionais. Organização da Estrutura Interna do Sistema Operacional. Gerência de Processos. Gerência do Processador. Gerência de Memória. Gerência de Dispositivos de Entrada e Saída. Sistemas de Arquivos.",
@@ -1681,7 +1841,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Pesquisa Operacional",
                 "url": "/disciplinas/pesquisa_operacional",
-				"resumo": "Pesquisa operacional é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Pesquisa operacional é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D37",
                     "nome": "Pesquisa Operacional",
@@ -1695,6 +1855,7 @@
                     "prerequisito": [
                         "D8"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Modelagem.",
                         "Problema de Programação Linear (PL). Resolução gráfica de PL.",
@@ -1722,7 +1883,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Linguagens Formais e Autômatos",
                 "url": "/disciplinas/linguagens_formais_e_automatos",
-				"resumo": "Linguagens formais e autômatos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Linguagens formais e autômatos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D38",
                     "nome": "Linguagens Formais e Autômatos",
@@ -1736,6 +1897,7 @@
                     "prerequisito": [
                         "D4"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Conceitos básicos de linguagens.",
                         "Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades.",
@@ -1762,7 +1924,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Redes de computadores",
                 "url": "/disciplinas/redes_de_computadores",
-				"resumo": "Redes de computadores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Redes de computadores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D39",
                     "nome": "Redes de computadores",
@@ -1776,6 +1938,7 @@
                     "prerequisito": [
                         "D36"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Fundamentos.",
                         "Arquitetura de Redes TCP/IP (Internet).",
@@ -1805,7 +1968,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Introdução à Língua Brasileira de Sinais",
                 "url": "/disciplinas/introducao_a_lingua_brasileira_de_sinais",
-				"resumo": "Introdução a língua brasileira de sinais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Introdução a língua brasileira de sinais é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D40",
                     "nome": "Introdução à Língua Brasileira de Sinais",
@@ -1817,6 +1980,7 @@
                     "unidade": "LETRAS",
                     "obrigatoria": "Não",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares.",
                         "Concepções sobre a Língua de Sinais.",
@@ -1844,7 +2008,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Compiladores",
                 "url": "/disciplinas/compiladores",
-				"resumo": "Compiladores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Compiladores é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D41",
                     "nome": "Compiladores",
@@ -1858,6 +2022,7 @@
                     "prerequisito": [
                         "D11, D37"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "A estrutura de um compilador.",
                         "Análises léxica e sintática.",
@@ -1889,7 +2054,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Sistemas Distribuídos",
                 "url": "/disciplinas/sistemas_distribuidos",
-				"resumo": "Sistemas distribuidos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Sistemas distribuidos é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D42",
                     "nome": "Sistemas Distribuídos",
@@ -1903,6 +2068,7 @@
                     "prerequisito": [
                         "D10"
                     ],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Introdução a Sistemas Distribuídos",
                         "Invocação Remota",
@@ -1931,7 +2097,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Metodologia e Experimentação em Engenharia de Software",
                 "url": "/disciplinas/metodologia_e_experimentacao_em_engenharia_de_software",
-				"resumo": "Metodologia e experimentação em engenharia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Metodologia e experimentação em engenharia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D43",
                     "nome": "Metodologia e Experimentação em Engenharia de Software",
@@ -1943,6 +2109,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software.",
                         "Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura.",
@@ -1973,7 +2140,7 @@
                 "tipo": "card_expansível",
                 "titulo": "Mercado e Economia de Software",
                 "url": "/disciplinas/mercado_e_economia_de_software",
-				"resumo": "Mercado e economia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
+                "resumo": "Mercado e economia de software é uma disciplina optativa e faz parte do núcleo específico do bacharelado em Engenharia de Software da UFG.",
                 "conteudo": {
                     "id": "D44",
                     "nome": "Mercado e Economia de Software",
@@ -1985,6 +2152,7 @@
                     "unidade": "INF",
                     "obrigatoria": "Não",
                     "prerequisito": [],
+                    "topicos_swebok": [],
                     "ementa": [
                         "Modelos de negócio para software (aluguel, serviço, código aberto).",
                         "Leis, normas, impostos e legislação brasileira para o mercado local e para a exportação de software.",
