@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 import PageHeader from '../common/page-header';
 import categoriaDeDisciplinasJson from '../../data/disciplinas_restruturada_novo_modelo.json';
@@ -15,12 +16,12 @@ class Disciplina extends Component {
     console.log(this.props.match.params.disciplinaId);
   }
 
-  componentWillMount(){
+  componentWillMount() {
     this.getDisciplina();
   }
 
   render() {
-    if(!this.state.disciplina){
+    if (!this.state.disciplina) {
       return (
         <div></div>
       );
@@ -44,13 +45,7 @@ class Disciplina extends Component {
                 <div className="row">
                   <div className="col-md-7">
 
-                    <p className="mt-lg lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices
-                      malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis accumsan.</p>
-
-                    <p className="mt-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices
-                      malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis accumsan, efficitur dolor
-                      fermentum, tincidunt metus ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus.
-                      Etiam ut.</p>
+                    <p className="mt-lg lead">{this.state.disciplina.resumo}</p>
 
                     <div className="room-suite-info">
                       <ul>
@@ -60,7 +55,10 @@ class Disciplina extends Component {
                         <li><label>CARGA TEÓRICA</label> <span>{this.state.disciplina.conteudo.teo}</span></li>
                         <li><label>CARGA PRÁTICA</label> <span>{this.state.disciplina.conteudo.pra}</span></li>
                         <li><label>CARGA HORÁRIA TOTAL</label> <span>{this.state.disciplina.conteudo.total}</span></li>
-                        {this.state.disciplina.conteudo.prerequisito ? <li><label>PRÉREQUISITO</label> <span>{this.state.disciplina.conteudo.prerequisito.toString()}</span></li> : ''}
+                        {this.state.disciplina.conteudo.prerequisito ? <li><label>PRÉREQUISITO</label>
+                            <span>{this.renderPreRequisitos(this.state.disciplina.conteudo.prerequisito)}</span></li> : ''}
+
+
                         <li><label>OBRIGATÓRIA</label> <span>{this.state.disciplina.conteudo.obrigatoria}</span></li>
                       </ul>
                     </div>
@@ -98,18 +96,18 @@ class Disciplina extends Component {
                 <div className="row">
                   <div className="col-md-12">
 
-                    <ListaOrdenada items={this.state.disciplina.conteudo.ementa} />
+                    <ListaOrdenada items={this.state.disciplina.conteudo.ementa}/>
 
                   </div>
                 </div>
 
               </div>
 
-              {this.state.disciplina.conteudo.condicoesMinimas ? this.renderCondicoesMinimas(this.state.disciplina.conteudo.condicoesMinimas) : '' }
+              {this.state.disciplina.conteudo.condicoesMinimas ? this.renderCondicoesMinimas(this.state.disciplina.conteudo.condicoesMinimas) : ''}
 
-              {this.state.disciplina.conteudo.bibliografia.bibliografia_basica ? this.renderBibliografiaBasica(this.state.disciplina.conteudo.bibliografia.bibliografia_basica) : '' }
+              {this.state.disciplina.conteudo.bibliografia.bibliografia_basica ? this.renderBibliografiaBasica(this.state.disciplina.conteudo.bibliografia.bibliografia_basica) : ''}
 
-              {this.state.disciplina.conteudo.bibliografia.bibliografia_complementar ? this.renderBibliografiaComplementar(this.state.disciplina.conteudo.bibliografia.bibliografia_complementar) : '' }
+              {this.state.disciplina.conteudo.bibliografia.bibliografia_complementar ? this.renderBibliografiaComplementar(this.state.disciplina.conteudo.bibliografia.bibliografia_complementar) : ''}
 
             </div>
           </div>
@@ -121,16 +119,23 @@ class Disciplina extends Component {
   getDisciplina() {
     console.log("Disciplina.id: " + this.state.disciplinaId);
 
-    categoriaDeDisciplinasJson.forEach( (categoriaDeDisciplina) => {
-      categoriaDeDisciplina.subtopicos.forEach( disciplina => {
-        if (disciplina.id === this.state.disciplinaId){
-          this.setState({ disciplina: disciplina });
+    let disciplinas = [];
+
+    categoriaDeDisciplinasJson.forEach((categoriaDeDisciplina) => {
+      disciplinas = disciplinas.concat(categoriaDeDisciplina.subtopicos);
+      categoriaDeDisciplina.subtopicos.forEach(disciplina => {
+        if (disciplina.id === this.state.disciplinaId) {
+          this.setState({disciplina: disciplina});
         }
       })
-    })
+    });
+
+    // Get all disciplinas as an array
+    this.setState({disciplinas: disciplinas});
+
   }
 
-  renderCondicoesMinimas(items){
+  renderCondicoesMinimas(items) {
     return (
       <div className="col-md-12">
 
@@ -142,7 +147,8 @@ class Disciplina extends Component {
         <div className="row">
           <div className="col-md-12">
 
-            <ListaNaoOrdenada items={items} />
+
+            <ListaNaoOrdenada items={items}/>
 
           </div>
         </div>
@@ -151,7 +157,7 @@ class Disciplina extends Component {
     )
   }
 
-  renderBibliografiaBasica(items){
+  renderBibliografiaBasica(items) {
     return (
       <div className="col-md-12">
 
@@ -163,7 +169,7 @@ class Disciplina extends Component {
         <div className="row">
           <div className="col-md-12">
 
-            <ListaNaoOrdenada items={items} />
+            <ListaNaoOrdenada items={items}/>
 
           </div>
         </div>
@@ -172,7 +178,7 @@ class Disciplina extends Component {
     )
   }
 
-  renderBibliografiaComplementar(items){
+  renderBibliografiaComplementar(items) {
     return (
       <div className="col-md-12">
 
@@ -184,13 +190,35 @@ class Disciplina extends Component {
         <div className="row">
           <div className="col-md-12">
 
-            <ListaNaoOrdenada items={items} />
+            <ListaNaoOrdenada items={items}/>
 
           </div>
         </div>
 
       </div>
     )
+  }
+
+  renderPreRequisitos(prerequisitos) {
+    let mappedPreRequisitos = prerequisitos.map((prerequisito, index) => {
+      console.log('prerequisito ' + prerequisito);
+
+      let disciplina = this.state.disciplinas.filter( (disciplina) => {
+        return disciplina.id === prerequisito;
+      });
+
+      if (!disciplina || disciplina.length < 1) { return }
+
+      return (
+        <Link to={disciplina[0].url}>
+          {(index+1) + `. `}{disciplina[0].titulo}
+
+          <br />
+        </Link>
+      )
+    });
+
+    return mappedPreRequisitos;
   }
 
 }
