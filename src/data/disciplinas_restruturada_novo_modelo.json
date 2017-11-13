@@ -20,7 +20,12 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Profissionalismo",
+                        "Habilidades comunicativas",
+                        "Dinâmicas de grupo e psicologia",
+                        "Fundamentos econômicos de engenharia de software"        
+                    ],
 
                     "ementa": [
                         "História da computação.",
@@ -67,7 +72,20 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Técnicas de resolução de problemas",
+                        "Abstração",
+                        "Fundamentos de programação",
+                        "Princípios de linguagens de programação",
+                        "Ferramentas e técnicas de debugging",
+                        "Estrutura e representação de dados",
+                        "Algoritmos e complexidade",
+                        "Princípios de compiladores",
+                        "Princípios de fatores de usuários humanos",
+                        "Gramática",
+                        "Tecnologias de construção",
+                        "Ferramentas de construção de software"
+                    ],
                     "ementa": [
                         "Introdução a algoritmos.",
                         "Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.",
@@ -112,7 +130,14 @@
                     "unidade": "IME",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Técnicas de prova",
+                        "Princípios de contagem",
+                        "Precisão numérica, acurácia, e erros",
+                        "Teoria dos números",
+                        "Estruturas algébricas",
+                        "Conjuntos, relações e funções"
+                    ],
                     "ementa": [
                         "Números reais. Funções reais de uma variável real e suas inversas.",
                         "Noções sobre cônicas.",
@@ -155,7 +180,14 @@
                     "unidade": "INF",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Conjuntos, relações e funções",
+                        "Lógica básica",
+                        "Princípios de contagem",
+                        "Técnicas de prova",
+                        "Probabilidade discreta",
+                        "Teoria dos números"
+                    ],
                     "ementa": [
                         "Noções de lógica.",
                         "Introdução a demonstrações",
@@ -199,7 +231,16 @@
                     "prerequisito": [
                         "fundamentos_de_matematica_para_computacao"
                     ],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Conceitos básicos de um sistema",
+                        "Organização dos computadores",
+                        "Princípios de compiladores",
+                        "Princípios de sistemas operacionais",
+                        "Princípios de comunicação em redes",
+                        "Lógica básica",
+                        "Probabilidade discreta",
+                        "Máquinas de estado finito"
+                    ],
                     "ementa": [
                         "Visão geral dos computadores modernos.",
                         "Evolução da arquitetura dos computadores.",
@@ -247,7 +288,16 @@
                     "prerequisito": [
                         "introducacao_a_programacao"
                     ],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Estruturas algébricas",
+                        "Gráfos e árvores",
+                        "Algoritmos e complexidade",
+                        "Estrutura de dados e representação",
+                        "Fundamentos de programação",
+                        "Abstração",
+                        "Técnicas de resolução de problemas",
+                        "Ferramentas e técnicas de debugging"
+                    ],
                     "ementa": [
                         "Noções de complexidade de algoritmos (notações de complexidade).",
                         "Algoritmos de pesquisa: pesquisa sequencial e binária.",
@@ -291,7 +341,17 @@
                     "prerequisito": [
                         "calculo_1a"
                     ],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Conjuntos, relações e funções",
+                        "Probabilidade discreta",
+                        "Princípios de contagem",
+                        "Teoria dos números",
+                        "Técnicas de prova",
+                        "Lógica básica",
+                        "Análise estatística",
+                        "Métodos empíricos e técnicas de experimentação",
+                        "Medição"
+                    ],
                     "ementa": [
                         "Estatística descritiva. Noções sobre amostragem.",
                         "Introdução à teoria de conjuntos.",
@@ -336,7 +396,14 @@
                     "unidade": "IME",
                     "obrigatoria": "Sim",
                     "prerequisito": [],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Teoria dos números",
+                        "Conjuntos, relações e funções",
+                        "Princípios de contagem",
+                        "Técnicas de prova",
+                        "Precisão numérica, acurácia e erros",
+                        "Estruturas algébricas"
+                    ],
                     "ementa": [
                         "Sistemas lineares e matrizes.",
                         "Espaços vetoriais.",
@@ -379,7 +446,16 @@
                     "prerequisito": [
                         "fundamentos_de_matematica_para_computacao"
                     ],
-                    "topicos_swebok": [],
+                    "topicos_swebok": [
+                        "Técnicas de prova",
+                        "Probabilidade discreta",
+                        "Lógica básica",
+                        "Teoria dos números",
+                        "Conjuntos, relações e funções",
+                        "Princípios de linguagens de programação",
+                        "Técnicas de resolução de problemas",
+                        "Métodos empíricos e técnicas de experimentação"
+                    ],
                     "ementa": [
                         "Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);",
                         "Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural",
