@@ -40,7 +40,7 @@ class HomeContentSection extends Component {
                     <i className="icon-location-pin icons text-color-primary" />
                     <label>ENDEREÇO</label>
                     <strong>Alameda Palmeiras s/n - C. Samambaia, Goiânia - GO</strong>
-                    <a href="#" title="">(View Location)</a>
+                    <a href="https://www.google.com.br/maps/place/Institute+of+Informatics+%2F+UFG/@-16.603516,-49.2687937,17z/data=!3m1!4b1!4m5!3m4!1s0x935ef34bca719ee1:0x79210783139c2057!8m2!3d-16.603516!4d-49.266605?hl=en" title="">(View Location)</a>
                   </div>
                   <div className="micro-map-info-detail">
                     <i className="icon-phone icons text-color-primary" />
