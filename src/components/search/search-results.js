@@ -53,6 +53,7 @@ class SearchResults extends Component {
         "conteudo",
         "conteudo.nome",
         "conteudo.ementa",
+        "conteudo.topicos_swebok"
       ]
     };
 
